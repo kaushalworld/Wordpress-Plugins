@@ -1,0 +1,1 @@
+<p>Whether you have 1 page or 1 million pages simply choose your favorite reactions and turn on the toggle switch to deploy your emoji reactions sitewide. Only one style can be activated at a time.</p><p>Click on the customize button to choose your own emojis and options.</p>

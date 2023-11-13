@@ -1,0 +1,64 @@
+@import "../../lae-lib";
+
+/* ---------------------------------- FAQ Widget ---------------------------------- */
+
+
+/* -------- General FAQ Styling -------- */
+
+.lae-faq-list {
+  clear: both;
+
+  .lae-faq-item {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 24px;
+
+    .lae-faq-question {
+      font-size: 24px;
+      line-height: 32px;
+      text-transform: none;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .lae-dark-bg & {
+      color: $dark-bg-secondary-text;
+
+      .lae-faq-question {
+        color: $dark-bg-primary-text;
+      }
+      .lae-faq-answer {
+        color: $dark-bg-secondary-text;
+      }
+    }
+  }
+}
+
+/* Style 1 */
+.lae-faq-list-style1 {
+  .lae-faq-item {
+    text-align: left;
+
+    .lae-faq-question {
+    }
+
+    .lae-faq-answer {
+      margin-top: 20px;
+    }
+  }
+}
+
+/* Style 2 */
+
+.lae-faq-list-style2 {
+  .lae-faq-item {
+    text-align: center;
+
+    .lae-faq-question {
+    }
+
+    .lae-faq-answer {
+      margin-bottom: 20px;
+    }
+  }
+}

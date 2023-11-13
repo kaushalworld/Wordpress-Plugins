@@ -1,0 +1,1 @@
+<p>This option is intended to handle plugin data after you uninstall plugin and mostly useful in 2 cases: <br><br> 1. Support may ask you to do or you may want to purge all data for debugging of plugin<br> 2. You decided to delete plugin and its data completely from your site</p><p><strong>Note:</strong> Backup your data before uninstalling plugin</p>

@@ -1,0 +1,90 @@
+
+@import "../../lae-lib";
+
+/* ---------------------------------- Icon Lists ---------------------------------- */
+
+.lae-icon-list {
+  clear: both;
+  font-size: 0; /* Remove space between elements */
+  width: 100%;
+
+  &.lae-alignleft {
+    text-align: left;
+  }
+
+  &.lae-alignright {
+    text-align: right;
+  }
+
+  &.lae-aligncenter {
+    text-align: center;
+  }
+
+  .lae-icon-list-item {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    outline: none;
+    margin: 0 0 0 15px;
+
+    .rtl & {
+      margin: 0 15px 0 0;
+    }
+
+    &:first-child {
+      margin: 0;
+    }
+
+    .lae-icon-wrapper i {
+      display: block;
+      font-size: 32px;
+      line-height: 1;
+      color: #666;
+      transition: color .3s ease-in-out 0s;
+    }
+
+    .lae-image-wrapper img {
+      display: block;
+      max-width: 100%;
+      width: 32px;
+      height: auto;
+      margin: 0 auto;
+      transition: all .4s ease-in-out 0s;
+    }
+
+    &:hover {
+      .lae-image-wrapper img {
+        opacity: 0.8;
+      }
+
+      .lae-icon-wrapper i {
+        color: #333;
+      }
+    }
+  }
+}
+
+.lae-circular-icon-list .lae-icon-list {
+  .lae-icon-list-item {
+    margin: 0 0 0 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    @include respond-to-max(479) {
+      margin: 0 0 20px 20px;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    .lae-dark-bg & {
+      background: #48484a;
+    }
+
+    .lae-icon-wrapper i {
+      font-size: 22px; /* Override user choice */
+      padding: 14px 0;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+<p>This feature will erase all user reaction counts and reset them to ‘0’. You can choose to do this for Global Activation and/or all Shortcodes.</p><p>Note: This does not reset fake counts.</p>

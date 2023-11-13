@@ -1,0 +1,1 @@
+<p><strong>Increase and decrease button size</strong><br> This feature controls the inner padding and creates space between the font and the inside of the button border. This option works well when combined with font sizing to make the perfect button size.</p>

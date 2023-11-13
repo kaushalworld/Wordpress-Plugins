@@ -1,0 +1,1 @@
+<p>Badges are located above your emojis when enabled. They register live each time your visitor clicks on an emoji. You can style your badges to any color with our color picker. When badges are activated you will be able to preset your counts to any number.</p><p>To disable badges and not show them, simply uncheck.</p>

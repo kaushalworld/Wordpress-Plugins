@@ -1,0 +1,1 @@
+<p>This layout is most flexible. Choose between 2 and 7 emojis. Go to the next step to choose your emojis and customize.</p>

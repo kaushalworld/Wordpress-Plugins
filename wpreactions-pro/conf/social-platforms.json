@@ -1,0 +1,89 @@
+{
+  "facebook": {
+    "label": "Facebook",
+    "color": "#3b5998",
+    "url": {
+      "desktop": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "twitter": {
+    "label": "Twitter",
+    "color": "#00acee",
+    "url": {
+      "desktop": "https://twitter.com/intent/tweet?text="
+    }
+  },
+  "whatsapp": {
+    "label": "Whatsapp",
+    "color": "#25d366",
+    "url": {
+      "desktop": "https://api.whatsapp.com/send?text=",
+      "mobile": "whatsapp://send?text="
+    }
+  },
+  "linkedin": {
+    "label": "Linkedin",
+    "color": "#0077b5",
+    "url": {
+      "desktop": "https://www.linkedin.com/shareArticle?url="
+    }
+  },
+  "pinterest": {
+    "label": "Pinterest",
+    "color": "#bd081c",
+    "url": {
+      "desktop": "https://pinterest.com/pin/create/link/?url="
+    }
+  },
+  "messenger": {
+    "label": "Messenger",
+    "color": "#0078FF",
+    "url": {
+      "desktop": "https://www.facebook.com/dialog/send?app_id=140586622674265&redirect_uri=https://facebook.com&link=",
+      "mobile": "fb-messenger://share?link="
+    }
+  },
+  "reddit": {
+    "label": "Reddit",
+    "color": "#ff4500",
+    "url": {
+      "desktop": "https://reddit.com/submit?url="
+    }
+  },
+  "telegram": {
+    "label": "Telegram",
+    "color": "#0088cc",
+    "url": {
+      "desktop": "https://t.me/share/url?url="
+    }
+  },
+  "tumblr": {
+    "label": "Tumblr",
+    "color": "#001935",
+    "url": {
+      "desktop": "https://tumblr.com/widgets/share/tool?canonicalUrl="
+    }
+  },
+  "vkontakte": {
+    "label": "VKontakte",
+    "color": "#5181B8",
+    "url": {
+      "desktop": "https://vk.com/share.php?url="
+    }
+  },
+  "gmail": {
+    "label": "Gmail",
+    "color": "#EA4335",
+    "url": {
+      "desktop": "https://mail.google.com/mail/?view=cm&su=Shared%20with%20wpreactions&body=",
+      "mobile": "mailto:?Subject=Shared%20with%20wpreactions&body="
+    }
+  },
+  "email": {
+    "label": "Email",
+    "color": "#424242",
+    "url": {
+      "desktop": "mailto:?Subject=Shared%20with%20wpreactions&body="
+    }
+  }
+}

@@ -1,0 +1,1 @@
+<p>Change the size and colors of your animation with easy dropdowns. Check your preview to check your work as you go.</p>

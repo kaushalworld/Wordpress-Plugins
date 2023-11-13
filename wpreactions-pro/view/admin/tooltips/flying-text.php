@@ -1,0 +1,1 @@
+<p>This effect will occur after a user clicks on an emoji. You can choose from flying numbers or words. In addition, you can adjust settings on this effect to increase font size and color.</p>

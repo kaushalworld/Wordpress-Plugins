@@ -1,0 +1,81 @@
+@import "../../lae-lib";
+
+/* Services Widget Premium Features */
+
+/* Style 4 */
+
+.lae-services-style4 {
+  .lae-service {
+
+    .lae-image-wrapper img, .lae-icon-wrapper i {
+      display: block;
+      margin-bottom: 20px;
+      text-align: left;
+
+      .rtl & {
+        text-align: right;
+      }
+    }
+
+    .lae-icon-wrapper i {
+      font-size: 36px;
+      line-height: 1;
+      color: #888;
+
+      .lae-dark-bg &:hover {
+        color: #c5c5c5;
+      }
+    }
+
+    .lae-service-text .lae-title {
+      @include lae-heading-style();
+    }
+  }
+}
+
+/* Style 5 */
+.lae-services-style5 {
+  .lae-service {
+
+    .lae-icon-wrapper i {
+      display: block;
+      text-align: center;
+      font-size: 48px;
+      line-height: 1;
+      margin-bottom: 15px;
+      color: #999;
+      transition: color .4s ease-in-out 0s;
+
+      .lae-dark-bg &:hover {
+        color: #c5c5c5;
+      }
+    }
+
+    .lae-image-wrapper img {
+      display: block;
+      max-width: 100%;
+      text-align: center;
+      margin: 0 auto 25px;
+      transition: all .4s ease-in-out 0s;
+    }
+
+    .lae-service-text {
+      text-align: center;
+      max-width: 300px;
+      margin: 0 auto;
+
+      .lae-title {
+        @include lae-heading-style();
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 10px;
+      }
+    }
+
+    &:hover {
+      .lae-image-wrapper img {
+        transform: scale(0.9, 0.9);
+      }
+    }
+  }
+}

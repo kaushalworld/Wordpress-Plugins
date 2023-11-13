@@ -1,0 +1,43 @@
+@import "../../lae-lib";
+
+
+/* ---------------------------------- Slider Widget ---------------------------------- */
+
+.lae-slider {
+  clear: both;
+  position: relative;
+  padding: 0 0 10px 0;
+
+  .lae-slide {
+    position: relative;
+
+    img {
+      transition: all .4s ease-in-out 0s;
+      opacity: 0.7;
+      height: auto;
+      width: auto;
+    }
+
+    &:hover {
+      img {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .lae-flex-direction-nav a, .lae-flex-direction-nav a:hover {
+    color: #ccc;
+    font-size: 26px;
+    width: 30px;
+    height: 30px;
+    margin: -15px 0 0;
+
+    &.lae-flex-prev {
+      left: -40px;
+    }
+
+    &.lae-flex-next {
+      right: -40px;
+    }
+  }
+}

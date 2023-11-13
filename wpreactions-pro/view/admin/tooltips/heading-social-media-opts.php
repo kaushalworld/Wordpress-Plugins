@@ -1,0 +1,1 @@
+<p>When activated your audience will be able to share your content when clicking on Social Share Call to Action. They will be happy to do it with our current popup overlay with the top social media platforms.</p><p>Try it live in your preview!</p>

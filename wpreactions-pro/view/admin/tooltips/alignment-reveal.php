@@ -1,0 +1,1 @@
+<p><strong>Keeping your Reactions in line!</strong></p><p>We designed this feature so you don't have to worry later about lining up your "Reaction Button" with your content. This way when you paste your shortcode anywhere, your button will automatically fall into the correct position.</p>

@@ -1,0 +1,1 @@
+<p>This option allows for your text or count number to be animated by flying above the emojis and fading out.It is a cool extra option we think you will like.</p>

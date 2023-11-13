@@ -1,0 +1,3525 @@
+# Copyright (C) 2022 Wpmet
+# This file is distributed under the same license as the ShopEngine Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ShopEngine Pro 1.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shopengine-pro\n"
+"POT-Creation-Date: 2022-01-31 11:06:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-02-22 13:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"X-Loco-Version: 2.5.8; wp-5.9"
+
+#: modules/flash-sale/base/flash-sale-backend.php:17
+msgid " for edit sale price."
+msgstr ""
+
+#: modules/back-order/back-order.php:109
+msgid "\"%s\" is on back-order, you can add maximum %d in your cart"
+msgstr ""
+
+#: modules/back-order/back-order.php:499
+msgid "\"%s\" is on backorder, you can add maximum %d in your cart"
+msgstr ""
+
+#: modules/sticky-fly-cart/screens/default.php:30
+#: modules/sticky-fly-cart/sticky-fly-cart.php:28
+msgid "%s Item"
+msgid_plural "%s Items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:39
+#: modules/pre-order/admin/pre-order-admin.php:49
+msgid "& Partial Payment"
+msgstr ""
+
+#: modules/product-size-charts/product-size-charts.php:50
+msgid "-- select one --"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:53
+msgid "1 Month"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:55
+msgid "1 Year"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:54
+msgid "6 Months"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:52
+msgid "7 Days"
+msgstr ""
+
+#: widgets/account-form-register/screens/default.php:62
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: hooks/register-widgets.php:25
+#: widgets/account-address/account-address-config.php:15
+#: widgets/account-address/account-address.php:43
+msgid "Account Address"
+msgstr ""
+
+#: hooks/page-templates.php:33 hooks/register-widgets.php:20
+msgid "Account Dashboard"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard-config.php:16
+msgid "Account dashboard"
+msgstr ""
+
+#: hooks/register-widgets.php:30
+#: widgets/account-details/account-details-config.php:14
+msgid "Account Details"
+msgstr ""
+
+#: hooks/register-widgets.php:35
+#: widgets/account-downloads/account-downloads-config.php:17
+msgid "Account Downloads"
+msgstr ""
+
+#: hooks/register-widgets.php:40
+msgid "Account Form - Login"
+msgstr ""
+
+#: hooks/register-widgets.php:45
+msgid "Account Form - Register"
+msgstr ""
+
+#: hooks/register-widgets.php:50
+#: widgets/account-logout/account-logout-config.php:15
+msgid "Account Logout"
+msgstr ""
+
+#: hooks/register-widgets.php:55
+#: widgets/account-navigation/account-navigation-config.php:16
+msgid "Account Navigation"
+msgstr ""
+
+#: hooks/register-widgets.php:60
+msgid "Account Order - Details"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details-config.php:15
+msgid "Account Order Details"
+msgstr ""
+
+#: hooks/register-widgets.php:65
+msgid "Account Orders"
+msgstr ""
+
+#: widgets/account-form-register/account-form-register-config.php:15
+msgid "Account Register Form"
+msgstr ""
+
+#: modules/partial-payment/templates/admin/partial-payments-summery.php:27
+#: modules/partial-payment/templates/frontend/order/order-summery.php:28
+msgid "Action"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:403
+msgid "Action Buttons"
+msgstr ""
+
+#: shopengine-pro.php:296
+msgid "Activate ShopEngine"
+msgstr ""
+
+#: widgets/account-navigation/account-navigation.php:68
+msgid "Active Background"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1252
+msgid "Active Line Color"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1262
+msgid "Active Line Height"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1463
+msgid "Active Slider Color"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1618
+msgid "Active star color"
+msgstr ""
+
+#: modules/badge/product-tab.php:63
+msgid "Add Product Badge"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:192
+msgid "Add sale badge"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:499
+msgid "Add space after icon"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:526
+msgid "Add space before icon"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:684
+msgid "Add To Cart Button"
+msgstr ""
+
+#: modules/checkout-additional-field/base/backend.php:88
+msgid "Additional billing fields created from the shopengine"
+msgstr ""
+
+#: hooks/register-modules.php:751
+msgid "Additional form input field list"
+msgstr ""
+
+#: modules/checkout-additional-field/checkout-additional-field.php:52
+msgid "Additional Information"
+msgstr ""
+
+#: modules/checkout-additional-field/base/backend.php:90
+msgid "Additional shipping fields created from the shopengine"
+msgstr ""
+
+#: widgets/account-address/account-address.php:259
+#: widgets/thankyou-address-details/thankyou-address-details.php:132
+msgid "Address"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:305
+msgid "Address Details"
+msgstr ""
+
+#: widgets/thankyou-address-details/thankyou-address-details-config.php:15
+msgid "Address details"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:801
+msgid "Address section"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:810
+#: widgets/account-orders/account-orders.php:325
+msgid "Address Text Color"
+msgstr ""
+
+#: widgets/account-address/account-address.php:50
+msgid "Address Type"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:824
+msgid "Address Typography"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:625
+msgid "Adjust the 'Container Width' to 300px."
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:81
+#: widgets/comparison-button/comparison-button.php:131
+msgid "After"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:337
+msgid "Align"
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:63
+#: widgets/comparison-button/comparison-button.php:153
+#: widgets/product-filters/product-filters.php:549
+#: widgets/product-size-charts/product-size-charts.php:84
+#: widgets/thankyou-address-details/thankyou-address-details.php:42
+msgid "Alignment"
+msgstr ""
+
+#: modules/pre-order/admin/pre-order-admin-fields.php:75
+msgid "Allow Maximum Order"
+msgstr ""
+
+#: hooks/register-modules.php:548
+msgid "Allow users (optional)"
+msgstr ""
+
+#: hooks/register-modules.php:66
+#: modules/partial-payment/admin/partial-payment-admin.php:209
+#: modules/partial-payment/templates/admin/partial-payments-summery.php:26
+#: modules/partial-payment/templates/frontend/order/order-summery.php:27
+msgid "Amount"
+msgstr ""
+
+#: hooks/register-modules.php:53
+msgid "Amount Type"
+msgstr ""
+
+#: hooks/register-modules.php:504
+msgid "Applicable Categories"
+msgstr ""
+
+#: widgets/currency-switcher/currency-switcher.php:72
+msgid "Arrow Size (px)"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:56
+msgid "ASC"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1123
+msgid "Attribute"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1106
+msgid "Attributes"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1159
+msgid "Attributes list"
+msgstr ""
+
+#: modules/pre-order/admin/pre-order-admin-fields.php:118
+msgid "Auto Convert to Standard Product After Available Date"
+msgstr ""
+
+#: modules/back-order/back-order.php:372 modules/back-order/back-order.php:607
+msgid "Available date"
+msgstr ""
+
+#: modules/pre-order/admin/pre-order-admin-fields.php:87
+msgid "Available On"
+msgstr ""
+
+#: modules/currency-switcher/route.php:60
+#: modules/partial-payment/api/partial-payment-api.php:34
+msgid "available payment gateway fetched"
+msgstr ""
+
+#: widgets/flash-sale-products/screens/default.php:159
+msgid "Available:"
+msgstr ""
+
+#: hooks/register-modules.php:186
+msgid "Back-Order"
+msgstr ""
+
+#: widgets/account-address/account-address.php:748
+#: widgets/account-address/account-address.php:783
+#: widgets/account-details/account-details.php:449
+#: widgets/account-details/account-details.php:532
+#: widgets/account-downloads/account-downloads.php:50
+#: widgets/account-downloads/account-downloads.php:403
+#: widgets/account-downloads/account-downloads.php:438
+#: widgets/account-order-details/account-order-details.php:167
+#: widgets/account-order-details/account-order-details.php:555
+#: widgets/account-order-details/account-order-details.php:590
+#: widgets/account-order-details/account-order-details.php:742
+#: widgets/account-order-details/account-order-details.php:777
+#: widgets/account-orders/account-orders.php:51
+#: widgets/account-orders/account-orders.php:528
+#: widgets/account-orders/account-orders.php:565
+#: widgets/account-orders/account-orders.php:618
+#: widgets/account-orders/account-orders.php:652
+#: widgets/account-orders/account-orders.php:804
+#: widgets/account-orders/account-orders.php:838
+#: widgets/best-selling-product/best-selling-product.php:793
+#: widgets/best-selling-product/best-selling-product.php:828
+#: widgets/flash-sale-products/flash-sale-products.php:529
+#: widgets/flash-sale-products/flash-sale-products.php:692
+#: widgets/flash-sale-products/flash-sale-products.php:836
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:101
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:135
+msgid "Background"
+msgstr ""
+
+#: hooks/register-modules.php:964 hooks/register-modules.php:1044
+#: hooks/register-modules.php:1098
+#: widgets/account-address/account-address.php:573
+#: widgets/account-address/account-address.php:640
+#: widgets/account-details/account-details.php:183
+#: widgets/account-details/account-details.php:267
+#: widgets/account-form-login/account-form-login.php:280
+#: widgets/account-form-register/account-form-register.php:375
+#: widgets/categories/categories.php:484 widgets/categories/categories.php:520
+#: widgets/comparison-button/comparison-button.php:283
+#: widgets/comparison-button/comparison-button.php:317
+#: widgets/comparison-button/comparison-button.php:775
+#: widgets/currency-switcher/currency-switcher.php:105
+#: widgets/currency-switcher/currency-switcher.php:144
+#: widgets/product-filters/product-filters.php:1248
+#: widgets/product-filters/product-filters.php:1283
+#: widgets/product-filters/product-filters.php:1543
+#: widgets/product-filters/product-filters.php:1576
+#: widgets/product-size-charts/product-size-charts.php:318
+#: widgets/product-size-charts/product-size-charts.php:352
+#: widgets/product-size-charts/product-size-charts.php:508
+#: widgets/thankyou-order-details/thankyou-order-details.php:202
+#: widgets/thankyou-order-details/thankyou-order-details.php:288
+#: widgets/thankyou-order-details/thankyou-order-details.php:322
+#: widgets/thankyou-order-details/thankyou-order-details.php:411
+#: widgets/thankyou-order-details/thankyou-order-details.php:445
+msgid "Background Color"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:176
+#: widgets/account-form-login/account-form-login.php:225
+#: widgets/flash-sale-products/flash-sale-products.php:292
+msgid "Background color"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:293
+#: widgets/account-form-register/account-form-register.php:388
+msgid "Background Color Hover"
+msgstr ""
+
+#: modules/back-order/common/item-meta-format.php:18
+msgid "Backorder"
+msgstr ""
+
+#: hooks/register-modules.php:204
+msgid "Backordered Product Available date"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:583
+msgid "Badge"
+msgstr ""
+
+#: modules/badge/term-hooks.php:65
+msgid "Badge Color"
+msgstr ""
+
+#: modules/badge/term-hooks.php:68
+msgid "Badge Shape"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:723
+msgid "Badge Size"
+msgstr ""
+
+#: modules/badge/term-hooks.php:64
+msgid "Badge Text"
+msgstr ""
+
+#: modules/badge/term-hooks.php:66
+msgid "Badge Text Color"
+msgstr ""
+
+#: modules/badge/term-hooks.php:67
+msgid "Badge Type"
+msgstr ""
+
+#: hooks/register-modules.php:22
+msgid "Badges"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:80
+#: widgets/comparison-button/comparison-button.php:130
+msgid "Before"
+msgstr ""
+
+#: hooks/register-widgets.php:110
+#: widgets/best-selling-product/best-selling-product-config.php:14
+msgid "Best Selling Product"
+msgstr ""
+
+#: widgets/account-address/account-address.php:73
+msgid "Billing & Shipping Address"
+msgstr ""
+
+#: widgets/account-address/account-address.php:30
+msgid "Billing Address Form"
+msgstr ""
+
+#: hooks/register-modules.php:571
+msgid "Billing form input field list"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:116
+#: widgets/account-orders/account-orders.php:113
+msgid "Body Background"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:789
+msgid "Body Typography"
+msgstr ""
+
+#: widgets/account-address/account-address.php:589
+#: widgets/account-address/account-address.php:656
+#: widgets/account-details/account-details.php:197
+#: widgets/account-details/account-details.php:281
+#: widgets/account-downloads/account-downloads.php:233
+#: widgets/account-form-login/account-form-login.php:193
+#: widgets/account-form-login/account-form-login.php:239
+#: widgets/account-form-register/account-form-register.php:200
+#: widgets/account-form-register/account-form-register.php:245
+#: widgets/account-order-details/account-order-details.php:379
+#: widgets/account-orders/account-orders.php:220
+#: widgets/categories/categories.php:343 widgets/categories/categories.php:537
+#: widgets/comparison-button/comparison-button.php:333
+#: widgets/comparison-button/comparison-button.php:788
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:180
+#: widgets/thankyou-order-details/thankyou-order-details.php:78
+msgid "Border"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1302
+msgid "Border (px)"
+msgstr ""
+
+#: hooks/register-modules.php:1169
+msgid "Border Bottom"
+msgstr ""
+
+#: widgets/account-details/account-details.php:213
+#: widgets/account-details/account-details.php:288
+#: widgets/account-navigation/account-navigation.php:158
+#: widgets/currency-switcher/currency-switcher.php:156
+#: widgets/product-size-charts/product-size-charts.php:365
+msgid "Border Color"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:325
+#: widgets/flash-sale-products/flash-sale-products.php:849
+msgid "Border color"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:348
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:347
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:346
+msgctxt "Border Control"
+msgid "Double"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:349
+msgctxt "Border Control"
+msgid "Groove"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:345
+msgctxt "Border Control"
+msgid "Solid"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:323
+#: widgets/account-order-details/account-order-details.php:470
+#: widgets/account-order-details/account-order-details.php:663
+#: widgets/account-orders/account-orders.php:433
+#: widgets/account-orders/account-orders.php:704
+#: widgets/best-selling-product/best-selling-product.php:732
+#: widgets/comparison-button/comparison-button.php:396
+#: widgets/comparison-button/comparison-button.php:435
+#: widgets/comparison-button/comparison-button.php:796
+#: widgets/currency-switcher/currency-switcher.php:170
+#: widgets/product-filters/product-filters.php:1083
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:450
+#: widgets/flash-sale-products/flash-sale-products.php:613
+msgid "Border radius"
+msgstr ""
+
+#: widgets/account-details/account-details.php:225
+#: widgets/account-details/account-details.php:298
+#: widgets/account-details/account-details.php:489
+#: widgets/account-details/account-details.php:572
+#: widgets/account-form-login/account-form-login.php:362
+#: widgets/product-size-charts/product-size-charts.php:409
+#: widgets/product-size-charts/product-size-charts.php:463
+msgid "Border Radius (px)"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:258
+#: widgets/account-order-details/account-order-details.php:403
+#: widgets/account-orders/account-orders.php:244
+msgid "Border Row Color"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:341
+msgid "Border Type"
+msgstr ""
+
+#: widgets/account-details/account-details.php:203
+#: widgets/account-details/account-details.php:285
+#: widgets/account-downloads/account-downloads.php:247
+#: widgets/account-order-details/account-order-details.php:392
+#: widgets/account-orders/account-orders.php:233
+#: widgets/flash-sale-products/flash-sale-products.php:305
+msgid "Border Width"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:862
+msgid "Border width"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:303
+#: widgets/flash-sale-products/flash-sale-products.php:394
+msgid "Bottom"
+msgstr ""
+
+#: hooks/register-modules.php:985 hooks/register-modules.php:1065
+#: widgets/comparison-button/comparison-button.php:669
+msgid "Bottom Position"
+msgstr ""
+
+#: widgets/account-address/account-address.php:150
+msgid "Bottom Spacing"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:372
+#: widgets/account-order-details/account-order-details.php:519
+#: widgets/account-order-details/account-order-details.php:711
+#: widgets/account-orders/account-orders.php:485
+#: widgets/account-orders/account-orders.php:753
+#: widgets/best-selling-product/best-selling-product.php:762
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:664
+msgid "Breakpoint"
+msgstr ""
+
+#: widgets/account-details/account-details.php:396
+#: widgets/account-form-login/account-form-login.php:259
+#: widgets/account-form-register/account-form-register.php:354
+#: widgets/comparison-button/comparison-button.php:145
+msgid "Button"
+msgstr ""
+
+#: widgets/account-details/account-details.php:436
+#: widgets/account-details/account-details.php:519
+msgid "Button Color"
+msgstr ""
+
+#: widgets/account-details/account-details.php:404
+msgid "Button Font Size (px)"
+msgstr ""
+
+#: hooks/register-modules.php:38
+#: widgets/product-size-charts/product-size-charts.php:41
+msgid "Button Label"
+msgstr ""
+
+#: hooks/register-modules.php:1232
+msgid "Button Padding"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:541
+msgid "Button Text"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:344
+#: widgets/account-order-details/account-order-details.php:492
+#: widgets/account-order-details/account-order-details.php:684
+#: widgets/account-orders/account-orders.php:457
+#: widgets/account-orders/account-orders.php:725
+#: widgets/best-selling-product/best-selling-product.php:745
+msgid "Button Typography"
+msgstr ""
+
+#: modules/quick-checkout/quick-checkout.php:85
+msgid "Buy Now"
+msgstr ""
+
+#: hooks/register-modules.php:481
+msgid "Campaign Title"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:587
+msgid "Cancel Button"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:515
+msgid "Card"
+msgstr ""
+
+#: hooks/register-modules.php:1081
+msgid "Cart Body"
+msgstr ""
+
+#: hooks/register-modules.php:1209
+msgid "Cart Buttons"
+msgstr ""
+
+#: hooks/register-modules.php:1121
+msgid "Cart Header"
+msgstr ""
+
+#: hooks/register-modules.php:1145
+msgid "Cart Items"
+msgstr ""
+
+#: hooks/register-modules.php:1185
+msgid "Cart Subtotal"
+msgstr ""
+
+#: hooks/register-widgets.php:70 widgets/categories/categories-config.php:14
+msgid "Categories"
+msgstr ""
+
+#: widgets/categories/categories.php:398
+msgid "Category Dropdown"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:199
+#: widgets/product-filters/product-filters.php:1685
+msgid "Category Filter"
+msgstr ""
+
+#: widgets/categories/categories.php:218
+msgid "Category List"
+msgstr ""
+
+#: widgets/categories/categories.php:47
+#: widgets/product-filters/product-filters.php:227
+msgid "Category order"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:278
+msgid "Cell Padding"
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:71
+#: widgets/account-orders/account-orders.php:345
+#: widgets/best-selling-product/best-selling-product.php:302
+#: widgets/comparison-button/comparison-button.php:161
+#: widgets/flash-sale-products/flash-sale-products.php:393
+#: widgets/product-filters/product-filters.php:557
+#: widgets/product-size-charts/product-size-charts.php:92
+#: widgets/thankyou-address-details/thankyou-address-details.php:50
+msgid "Center"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:390
+msgid "center"
+msgstr ""
+
+#: modules/product-size-charts/product-size-charts.php:74
+msgid "Chart"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:53
+msgid "Chart Heading"
+msgstr ""
+
+#: hooks/register-modules.php:862
+msgid "Chart Image"
+msgstr ""
+
+#: hooks/register-modules.php:855
+msgid "Chart Title"
+msgstr ""
+
+#: hooks/register-modules.php:596 hooks/register-modules.php:686
+#: hooks/register-modules.php:776
+msgid "Checkbox"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:940
+msgid "Checkbox Border Color"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:928
+msgid "Checkbox Icon"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1011
+msgid "Checkbox Icon Size"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1035
+msgid "Checkbox Size"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:919
+msgid "Checkbox Style"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:969
+msgid "Checked Background"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:955
+msgid "Checked Icon Color"
+msgstr ""
+
+#: hooks/register-modules.php:563
+msgid "Checkout Additional Field"
+msgstr ""
+
+#: modules/checkout-additional-field/base/backend.php:43
+msgid "checkout fields fetched"
+msgstr ""
+
+#: modules/badge/badge.php:100
+msgid "Choose an image"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:89
+msgid "Circle"
+msgstr ""
+
+#: modules/flash-sale/base/flash-sale-backend.php:17
+msgid "Click here"
+msgstr ""
+
+#: modules/product-size-charts/product-size-charts.php:80
+msgid "Click on this link to create a new chart"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:516
+msgid "Collapse"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1732
+msgid "Collapse Container Border"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1721
+msgid "Collapse Styles"
+msgstr ""
+
+#: hooks/register-modules.php:1037
+#: widgets/account-address/account-address.php:91
+#: widgets/account-address/account-address.php:185
+#: widgets/account-address/account-address.php:268
+#: widgets/account-address/account-address.php:352
+#: widgets/account-address/account-address.php:427
+#: widgets/account-address/account-address.php:557
+#: widgets/account-address/account-address.php:625
+#: widgets/account-address/account-address.php:735
+#: widgets/account-address/account-address.php:770
+#: widgets/account-downloads/account-downloads.php:390
+#: widgets/account-downloads/account-downloads.php:425
+#: widgets/account-form-login/account-form-login.php:37
+#: widgets/account-form-login/account-form-login.php:267
+#: widgets/account-form-login/account-form-login.php:398
+#: widgets/account-form-register/account-form-register.php:37
+#: widgets/account-form-register/account-form-register.php:274
+#: widgets/account-form-register/account-form-register.php:362
+#: widgets/account-order-details/account-order-details.php:542
+#: widgets/account-order-details/account-order-details.php:577
+#: widgets/account-order-details/account-order-details.php:729
+#: widgets/account-order-details/account-order-details.php:764
+#: widgets/account-orders/account-orders.php:514
+#: widgets/account-orders/account-orders.php:551
+#: widgets/account-orders/account-orders.php:605
+#: widgets/account-orders/account-orders.php:640
+#: widgets/account-orders/account-orders.php:791
+#: widgets/account-orders/account-orders.php:826
+#: widgets/best-selling-product/best-selling-product.php:332
+#: widgets/best-selling-product/best-selling-product.php:419
+#: widgets/best-selling-product/best-selling-product.php:514
+#: widgets/best-selling-product/best-selling-product.php:588
+#: widgets/best-selling-product/best-selling-product.php:780
+#: widgets/best-selling-product/best-selling-product.php:815
+#: widgets/categories/categories.php:142 widgets/categories/categories.php:280
+#: widgets/categories/categories.php:303 widgets/categories/categories.php:470
+#: widgets/categories/categories.php:507
+#: widgets/comparison-button/comparison-button.php:384
+#: widgets/comparison-button/comparison-button.php:423
+#: widgets/flash-sale-products/flash-sale-products.php:516
+#: widgets/flash-sale-products/flash-sale-products.php:679
+#: widgets/product-filters/product-filters.php:1235
+#: widgets/product-filters/product-filters.php:1269
+#: widgets/product-size-charts/product-size-charts.php:305
+#: widgets/product-size-charts/product-size-charts.php:339
+#: widgets/thankyou-address-details/thankyou-address-details.php:78
+#: widgets/thankyou-address-details/thankyou-address-details.php:141
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:88
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:122
+#: widgets/thankyou-order-details/thankyou-order-details.php:189
+#: widgets/thankyou-order-details/thankyou-order-details.php:275
+#: widgets/thankyou-order-details/thankyou-order-details.php:309
+#: widgets/thankyou-order-details/thankyou-order-details.php:398
+#: widgets/thankyou-order-details/thankyou-order-details.php:432
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:47
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:137
+msgid "Color"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:149
+msgid "Color Filter"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:93
+msgid "Column"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:110
+msgid "Column gap"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:735
+msgid "Common Styles"
+msgstr ""
+
+#: modules/comparison/comparison-support.php:61
+msgid "Compare Products"
+msgstr ""
+
+#: hooks/register-widgets.php:115
+#: widgets/comparison-button/comparison-button-config.php:13
+msgid "Comparison Button"
+msgstr ""
+
+#: hooks/register-modules.php:1280
+msgid "Comparison Share Button"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:285
+#: widgets/flash-sale-products/flash-sale-products.php:376
+msgid "Contain"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1368
+msgid "Container Background Color"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1383
+msgid "Container Border (px)"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1414
+msgid "Container Box Shadow"
+msgstr ""
+
+#: widgets/account-navigation/account-navigation.php:171
+#: widgets/product-filters/product-filters.php:1745
+msgid "Container Padding"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1393
+msgid "Container Padding (px)"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:634
+msgid "Container Width"
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:31
+#: widgets/best-selling-product/best-selling-product.php:26
+#: widgets/categories/categories.php:25
+#: widgets/comparison-button/comparison-button.php:20
+msgid "Content"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:379
+msgid "Content Padding"
+msgstr ""
+
+#: widgets/account-address/account-address.php:315
+msgid "Content Padding (px)"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:956
+msgid "Content Style"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:227
+#: widgets/flash-sale-products/flash-sale-products.php:742
+msgid "Countdown clock"
+msgstr ""
+
+#: hooks/register-modules.php:497
+msgid "Countdown End Date"
+msgstr ""
+
+#: hooks/register-modules.php:489
+msgid "Countdown Start Date"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:925
+msgid "Countdown wrapper width"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:126
+msgid "Counter Position"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:92
+msgid "Counter Settings"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:284
+#: widgets/flash-sale-products/flash-sale-products.php:377
+msgid "Cover"
+msgstr ""
+
+#: modules/currency-switcher/route.php:46
+msgid "currencies fetched"
+msgstr ""
+
+#: hooks/register-modules.php:374
+msgid "Currency Active"
+msgstr ""
+
+#: hooks/register-modules.php:297
+msgid "Currency auto update"
+msgstr ""
+
+#: hooks/register-modules.php:304
+msgid "Currency auto update time (hourly)"
+msgstr ""
+
+#: hooks/register-modules.php:388
+msgid "Currency Code"
+msgstr ""
+
+#: hooks/register-modules.php:422
+msgid "Currency Decimal"
+msgstr ""
+
+#: hooks/register-modules.php:318
+msgid "Currency default rate provider"
+msgstr ""
+
+#: hooks/register-modules.php:342
+msgid "Currency freaks API credential"
+msgstr ""
+
+#: hooks/register-modules.php:367
+msgid "Currency List"
+msgstr ""
+
+#: hooks/register-modules.php:381
+msgid "Currency Name"
+msgstr ""
+
+#: modules/currency-switcher/route.php:30
+msgid "currency providers fetched"
+msgstr ""
+
+#: hooks/register-modules.php:395
+msgid "Currency Rate (1 USD = ?)"
+msgstr ""
+
+#: hooks/register-modules.php:288 hooks/register-widgets.php:100
+#: widgets/currency-switcher/currency-switcher-config.php:15
+msgid "Currency Switcher"
+msgstr ""
+
+#: hooks/register-modules.php:402
+msgid "Currency Symbol"
+msgstr ""
+
+#: hooks/register-modules.php:409
+msgid "Currency Symbol Position"
+msgstr ""
+
+#: hooks/register-modules.php:651 hooks/register-modules.php:741
+#: hooks/register-modules.php:830
+msgid "Custom css class"
+msgstr ""
+
+#: hooks/register-modules.php:1273
+msgid "Custom Meta to Show in Comparison Table"
+msgstr ""
+
+#: modules/partial-payment/partial-payment.php:64
+msgctxt "custom post type setting"
+msgid "Edit Partial Payment Installment"
+msgstr ""
+
+#: modules/partial-payment/partial-payment.php:66
+msgctxt "custom post type setting"
+msgid "Order"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:35
+msgid "Dashboard Style"
+msgstr ""
+
+#: hooks/register-modules.php:592 hooks/register-modules.php:682
+#: hooks/register-modules.php:772
+#: widgets/flash-sale-products/flash-sale-products.php:72
+msgid "Date"
+msgstr ""
+
+#: modules/pre-order/frontend/single-product-functionality.php:253
+msgid "Day/s"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:239
+#: widgets/flash-sale-products/screens/default.php:111
+msgid "Days"
+msgstr ""
+
+#: widgets/account-address/account-address.php:29
+#: widgets/account-dashboard/account-dashboard.php:18
+#: widgets/account-dashboard/account-dashboard.php:127
+#: widgets/account-order-details/account-order-details.php:363
+msgid "Default"
+msgstr ""
+
+#: hooks/register-modules.php:330
+msgid "Default currency"
+msgstr ""
+
+#: widgets/currency-switcher/currency-switcher.php:30
+msgid "Default Text"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:54
+#: widgets/flash-sale-products/flash-sale-products.php:57
+msgid "DESC"
+msgstr ""
+
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:128
+msgid "Description"
+msgstr ""
+
+#: hooks/register-modules.php:432
+msgid "Disable Payment Gateways for this currency"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:597
+#: widgets/product-filters/product-filters.php:38
+#: widgets/product-filters/product-filters.php:108
+#: widgets/product-filters/product-filters.php:151
+#: widgets/product-filters/product-filters.php:201
+#: widgets/product-filters/product-filters.php:295
+#: widgets/product-filters/product-filters.php:337
+#: widgets/product-filters/product-filters.php:377
+#: widgets/product-filters/product-filters.php:417
+#: widgets/product-filters/product-filters.php:457
+#: widgets/product-filters/product-filters.php:527
+msgid "Disabled"
+msgstr ""
+
+#: hooks/register-modules.php:530
+msgid "Discount Amount"
+msgstr ""
+
+#: hooks/register-modules.php:537
+msgid "Discount type"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:81
+msgid "Dot Type"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:295
+#: widgets/account-order-details/account-order-details.php:429
+msgid "Download Buttons"
+msgstr ""
+
+#: hooks/register-modules.php:887
+msgid "Drawer From"
+msgstr ""
+
+#: libs/schedule/templates/order-mail-content.php:46
+#: modules/partial-payment/admin/partial-payment-admin.php:145
+msgid "Due"
+msgstr ""
+
+#: modules/partial-payment/frontend/order/partial-payment-order.php:127
+msgid "Due:"
+msgstr ""
+
+#: hooks/register-modules.php:590 hooks/register-modules.php:680
+#: hooks/register-modules.php:770
+msgid "Email"
+msgstr ""
+
+#: widgets/account-form-register/screens/default.php:43
+msgid "Email address"
+msgstr ""
+
+#: modules/pre-order/admin/pre-order-admin-fields.php:120
+msgid "Enable"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1132
+msgid "Enable attributes"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:525
+msgid "Enable Container Toggle Button?"
+msgstr ""
+
+#: hooks/register-modules.php:880
+msgid "Enable Flying Animation"
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:192
+msgid "Enable Partial Payment"
+msgstr ""
+
+#: modules/product-size-charts/product-size-charts.php:69
+msgid "Enable Product Chart"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:177
+msgid "Enable sale badge"
+msgstr ""
+
+#: widgets/account-address/account-address.php:340
+msgid "Enable Title"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:598
+#: widgets/product-filters/product-filters.php:39
+#: widgets/product-filters/product-filters.php:109
+#: widgets/product-filters/product-filters.php:152
+#: widgets/product-filters/product-filters.php:202
+#: widgets/product-filters/product-filters.php:296
+#: widgets/product-filters/product-filters.php:338
+#: widgets/product-filters/product-filters.php:378
+#: widgets/product-filters/product-filters.php:418
+#: widgets/product-filters/product-filters.php:458
+#: widgets/product-filters/product-filters.php:528
+msgid "Enabled"
+msgstr ""
+
+#: widgets/categories/screens/default.php:192
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: widgets/account-form-login/screens/password-reset-form.php:34
+msgid "Enter a new password below."
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:55
+msgid "Enter logout title"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:120
+#: widgets/product-filters/product-filters.php:172
+#: widgets/product-filters/product-filters.php:236
+#: widgets/product-filters/product-filters.php:316
+#: widgets/product-filters/product-filters.php:358
+#: widgets/product-filters/product-filters.php:398
+#: widgets/product-filters/product-filters.php:438
+#: widgets/product-filters/product-filters.php:478
+#: widgets/product-filters/product-filters.php:1144
+msgid "Expand Collapse by default"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:286
+msgid "Fill"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:542
+msgid "Filter"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:828
+msgid "Filter Label Color"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:841
+msgid "Filter Label Hover Color"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1177
+msgid "Filter Toggle Button & Container"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:511
+msgid "Filter View Mode"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:27
+msgid "Filters"
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:131
+#: modules/partial-payment/settings/partial-payment-data.php:34
+msgid "First Installment"
+msgstr ""
+
+#: hooks/register-modules.php:110
+msgid "First Installment Label"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:280
+msgid "Fit"
+msgstr ""
+
+#: hooks/register-modules.php:539
+msgid "Fixed"
+msgstr ""
+
+#: hooks/register-modules.php:349
+msgid "Fixer API credential"
+msgstr ""
+
+#: hooks/register-modules.php:447
+msgid "Flash Sale Countdown"
+msgstr ""
+
+#: hooks/register-widgets.php:105
+#: widgets/flash-sale-products/flash-sale-products-config.php:16
+msgid "Flash Sale Products"
+msgstr ""
+
+#: widgets/account-address/account-address.php:618
+#: widgets/account-details/account-details.php:247
+#: widgets/account-form-login/account-form-login.php:203
+#: widgets/account-form-register/account-form-register.php:210
+msgid "Focus"
+msgstr ""
+
+#: widgets/account-details/account-details.php:630
+#: widgets/account-form-login/account-form-login.php:463
+#: widgets/account-form-register/account-form-register.php:450
+#: widgets/account-order-details/account-order-details.php:872
+#: widgets/categories/categories.php:579
+#: widgets/flash-sale-products/flash-sale-products.php:1292
+#: widgets/thankyou-address-details/thankyou-address-details.php:207
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:240
+#: widgets/thankyou-order-details/thankyou-order-details.php:473
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:203
+msgid "Font Family"
+msgstr ""
+
+#: hooks/register-modules.php:1176
+#: widgets/comparison-button/comparison-button.php:480
+#: widgets/comparison-button/comparison-button.php:745
+msgid "Font Size"
+msgstr ""
+
+#: widgets/account-address/account-address.php:104
+#: widgets/account-address/account-address.php:368
+#: widgets/account-address/account-address.php:453
+#: widgets/account-address/account-address.php:500
+#: widgets/account-address/account-address.php:694
+#: widgets/account-address/account-address.php:818
+#: widgets/account-dashboard/account-dashboard.php:156
+#: widgets/account-downloads/account-downloads.php:76
+#: widgets/account-downloads/account-downloads.php:182
+#: widgets/account-downloads/account-downloads.php:356
+#: widgets/account-form-register/account-form-register.php:63
+#: widgets/account-form-register/account-form-register.php:103
+#: widgets/account-form-register/account-form-register.php:301
+#: widgets/account-navigation/account-navigation.php:94
+#: widgets/account-order-details/account-order-details.php:90
+#: widgets/account-order-details/account-order-details.php:192
+#: widgets/account-order-details/account-order-details.php:302
+#: widgets/account-order-details/account-order-details.php:503
+#: widgets/account-order-details/account-order-details.php:695
+#: widgets/account-order-details/account-order-details.php:839
+#: widgets/account-orders/account-orders.php:78
+#: widgets/account-orders/account-orders.php:183
+#: widgets/account-orders/account-orders.php:469
+#: widgets/account-orders/account-orders.php:737
+#: widgets/best-selling-product/best-selling-product.php:357
+#: widgets/best-selling-product/best-selling-product.php:456
+#: widgets/best-selling-product/best-selling-product.php:527
+#: widgets/best-selling-product/best-selling-product.php:613
+#: widgets/best-selling-product/best-selling-product.php:650
+#: widgets/best-selling-product/best-selling-product.php:750
+#: widgets/categories/categories.php:164 widgets/categories/categories.php:238
+#: widgets/categories/categories.php:418
+#: widgets/comparison-button/comparison-button.php:222
+#: widgets/flash-sale-products/flash-sale-products.php:556
+#: widgets/flash-sale-products/flash-sale-products.php:719
+#: widgets/flash-sale-products/flash-sale-products.php:779
+#: widgets/flash-sale-products/flash-sale-products.php:821
+#: widgets/flash-sale-products/flash-sale-products.php:1003
+#: widgets/flash-sale-products/flash-sale-products.php:1085
+#: widgets/flash-sale-products/flash-sale-products.php:1127
+#: widgets/flash-sale-products/flash-sale-products.php:1183
+#: widgets/product-filters/product-filters.php:758
+#: widgets/product-filters/product-filters.php:796
+#: widgets/product-filters/product-filters.php:1204
+#: widgets/product-size-charts/product-size-charts.php:134
+#: widgets/product-size-charts/product-size-charts.php:263
+#: widgets/thankyou-address-details/thankyou-address-details.php:103
+#: widgets/thankyou-address-details/thankyou-address-details.php:166
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:41
+#: widgets/thankyou-order-details/thankyou-order-details.php:155
+#: widgets/thankyou-order-details/thankyou-order-details.php:233
+#: widgets/thankyou-order-details/thankyou-order-details.php:356
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:69
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:159
+msgid "Font Size (px)"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:63
+#: widgets/account-form-login/account-form-login.php:114
+#: widgets/account-form-login/account-form-login.php:306
+#: widgets/account-form-login/account-form-login.php:425
+msgid "Font size (px)"
+msgstr ""
+
+#: widgets/account-details/account-details.php:330
+msgid "Form"
+msgstr ""
+
+#: widgets/account-details/account-details.php:374
+msgid "Form Outline Color"
+msgstr ""
+
+#: widgets/account-address/account-address.php:492
+msgid "Form: Input"
+msgstr ""
+
+#: widgets/account-address/account-address.php:420
+msgid "Form: Label"
+msgstr ""
+
+#: widgets/account-address/account-address.php:680
+msgid "Form: Submit Button"
+msgstr ""
+
+#: widgets/account-address/account-address.php:333
+msgid "Form: Title"
+msgstr ""
+
+#: modules/partial-payment/settings/partial-payment-data.php:33
+msgid "Full Payment"
+msgstr ""
+
+#: hooks/register-modules.php:103
+msgid "Full Payment Label"
+msgstr ""
+
+#: widgets/currency-switcher/currency-switcher.php:21
+#: widgets/flash-sale-products/flash-sale-products.php:25
+msgid "General"
+msgstr ""
+
+#: widgets/account-address/account-address.php:805
+#: widgets/account-details/account-details.php:623
+#: widgets/account-form-login/account-form-login.php:455
+#: widgets/account-form-register/account-form-register.php:442
+#: widgets/account-order-details/account-order-details.php:865
+#: widgets/categories/categories.php:571
+#: widgets/flash-sale-products/flash-sale-products.php:1284
+#: widgets/thankyou-address-details/thankyou-address-details.php:198
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:232
+#: widgets/thankyou-order-details/thankyou-order-details.php:465
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:194
+msgid "Global Font"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:855
+msgid "Global Font Family"
+msgstr ""
+
+#: hooks/register-modules.php:897
+msgid "Global Styles"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:38
+msgid "Grid"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:136
+msgid "Grid Columns"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:157
+msgid "Grid Gap"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:125
+msgid "Grid Layout"
+msgstr ""
+
+#: widgets/account-form-login/screens/password-reset-mail-form.php:28
+msgid "Have Account? Login now"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:29
+msgid "Heading"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:815
+#: widgets/product-size-charts/product-size-charts.php:109
+msgid "Heading Color"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:65
+msgid "Heading color"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:115
+msgid "Heading margin"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:159
+msgid "Heading margin (px)"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:79
+msgid "Heading typography"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:239
+msgid "Heading Vertical Padding (px)"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:259
+#: widgets/flash-sale-products/flash-sale-products.php:354
+msgid "Height"
+msgstr ""
+
+#: widgets/currency-switcher/currency-switcher.php:39
+msgid "Height (px)"
+msgstr ""
+
+#: modules/currency-switcher/base/currency-switcher-admin.php:25
+#: modules/partial-payment/frontend/order/create-order.php:189
+msgid "here"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:78
+#: widgets/best-selling-product/best-selling-product.php:91
+#: widgets/best-selling-product/best-selling-product.php:104
+#: widgets/flash-sale-products/flash-sale-products.php:180
+#: widgets/flash-sale-products/flash-sale-products.php:218
+#: widgets/flash-sale-products/flash-sale-products.php:230
+#: widgets/flash-sale-products/flash-sale-products.php:242
+#: widgets/product-filters/product-filters.php:123
+#: widgets/product-filters/product-filters.php:175
+#: widgets/product-filters/product-filters.php:239
+#: widgets/product-filters/product-filters.php:319
+#: widgets/product-filters/product-filters.php:361
+#: widgets/product-filters/product-filters.php:401
+#: widgets/product-filters/product-filters.php:441
+#: widgets/product-filters/product-filters.php:481
+#: widgets/product-filters/product-filters.php:583
+#: widgets/product-filters/product-filters.php:1135
+#: widgets/product-filters/product-filters.php:1147
+msgid "Hide"
+msgstr ""
+
+#: widgets/categories/categories.php:108
+#: widgets/product-filters/product-filters.php:278
+msgid "Hide empty categories"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:363
+msgid "Hide Icon"
+msgstr ""
+
+#: hooks/register-modules.php:231
+msgid "Hide last name"
+msgstr ""
+
+#: hooks/register-modules.php:73
+msgid "Hide Payment Method/s in Checkout"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:51
+msgid "Highlight background color"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:37
+msgid "Highlight color"
+msgstr ""
+
+#: modules/pre-order/frontend/single-product-functionality.php:257
+msgid "Hour/s"
+msgstr ""
+
+#: widgets/flash-sale-products/screens/default.php:117
+msgid "Hours"
+msgstr ""
+
+#: widgets/account-address/account-address.php:763
+#: widgets/account-details/account-details.php:512
+#: widgets/account-downloads/account-downloads.php:418
+#: widgets/account-order-details/account-order-details.php:570
+#: widgets/account-order-details/account-order-details.php:757
+#: widgets/account-orders/account-orders.php:544
+#: widgets/account-orders/account-orders.php:633
+#: widgets/account-orders/account-orders.php:819
+#: widgets/best-selling-product/best-selling-product.php:808
+#: widgets/categories/categories.php:296 widgets/categories/categories.php:500
+#: widgets/comparison-button/comparison-button.php:297
+#: widgets/comparison-button/comparison-button.php:416
+#: widgets/currency-switcher/currency-switcher.php:126
+#: widgets/product-filters/product-filters.php:1558
+#: widgets/product-size-charts/product-size-charts.php:332
+msgid "Hover"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1262
+msgid "Hover & Active"
+msgstr ""
+
+#: widgets/account-navigation/account-navigation.php:52
+msgid "Hover and Active Color"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:411
+#: widgets/best-selling-product/best-selling-product.php:432
+msgid "Hover Color"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpmet.com/"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpmet.com/plugins/shopengine"
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:39
+#: widgets/comparison-button/comparison-button.php:60
+#: widgets/comparison-button/comparison-button.php:469
+#: widgets/product-filters/product-filters.php:592
+msgid "Icon"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:76
+#: widgets/product-filters/product-filters.php:607
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:40
+msgid "Icon Settings"
+msgstr ""
+
+#: hooks/register-modules.php:957 hooks/register-modules.php:1030
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:69
+msgid "ID"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:217
+msgid "Image border radius (px)"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:293
+msgid "Image Filter"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:205
+msgid "Image padding (px)"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:251
+msgid "Image Style"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:186
+msgid "Image width (px)"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:106
+#: widgets/account-form-register/account-form-register.php:95
+msgid "Input"
+msgstr ""
+
+#: widgets/account-form-register/account-form-register.php:184
+#: widgets/account-form-register/account-form-register.php:231
+msgid "Input Background color"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:161
+#: widgets/account-form-login/account-form-login.php:210
+#: widgets/account-form-register/account-form-register.php:170
+#: widgets/account-form-register/account-form-register.php:217
+msgid "Input Color"
+msgstr ""
+
+#: widgets/account-address/account-address.php:526
+#: widgets/account-details/account-details.php:141
+msgid "Input Padding"
+msgstr ""
+
+#: widgets/account-details/account-details.php:110
+msgid "Input Style"
+msgstr ""
+
+#: shopengine-pro.php:299
+msgid "Install ShopEngine"
+msgstr ""
+
+#: modules/pre-order/frontend/cart-functionality.php:76
+msgid "Item already exist in cart"
+msgstr ""
+
+#: modules/partial-payment/frontend/cart/partial-payment-cart.php:243
+msgid "Item already exist in cart as full payment"
+msgstr ""
+
+#: modules/partial-payment/frontend/cart/partial-payment-cart.php:251
+msgid "Item already exist in cart as partial payment"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:895
+msgid "Item gap"
+msgstr ""
+
+#: hooks/register-modules.php:262
+msgid "Keep notification on screen for __ milliseconds"
+msgstr ""
+
+#: hooks/register-modules.php:578 hooks/register-modules.php:668
+#: hooks/register-modules.php:758
+#: widgets/account-form-login/account-form-login.php:29
+#: widgets/account-form-register/account-form-register.php:29
+#: widgets/comparison-button/comparison-button.php:27
+msgid "Label"
+msgstr ""
+
+#: widgets/account-details/account-details.php:34
+msgid "Label Color"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:794
+msgid "Label color"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:335
+msgid "Label Filter"
+msgstr ""
+
+#: widgets/account-details/account-details.php:26
+msgid "Label Style"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:809
+msgid "Label typography"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:51
+msgid "Last Day"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:34
+#: widgets/product-filters/product-filters.php:502
+msgid "Layout"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:44
+msgid "Layout and Product"
+msgstr ""
+
+#: hooks/register-modules.php:411 hooks/register-modules.php:889
+#: widgets/account-logout/account-logout.php:67
+#: widgets/account-orders/account-orders.php:341
+#: widgets/comparison-button/comparison-button.php:157
+#: widgets/product-filters/product-filters.php:553
+#: widgets/product-filters/product-filters.php:611
+#: widgets/product-size-charts/product-size-charts.php:88
+#: widgets/thankyou-address-details/thankyou-address-details.php:46
+msgid "Left"
+msgstr ""
+
+#: hooks/register-modules.php:992 hooks/register-modules.php:1072
+#: widgets/comparison-button/comparison-button.php:695
+msgid "Left Position"
+msgstr ""
+
+#: hooks/register-modules.php:413
+msgid "Left Space"
+msgstr ""
+
+#: widgets/account-details/account-details.php:338
+msgid "Legend Color"
+msgstr ""
+
+#: widgets/categories/categories.php:446
+msgid "Letter Spacing (px)"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:56
+msgid "Life Time"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1207
+msgid "Line Cap Style"
+msgstr ""
+
+#: widgets/account-address/account-address.php:127
+#: widgets/account-address/account-address.php:823
+#: widgets/account-form-register/account-form-register.php:324
+#: widgets/account-order-details/account-order-details.php:311
+#: widgets/account-order-details/account-order-details.php:848
+#: widgets/best-selling-product/best-selling-product.php:468
+#: widgets/best-selling-product/best-selling-product.php:622
+#: widgets/categories/categories.php:432
+#: widgets/comparison-button/comparison-button.php:233
+#: widgets/product-filters/product-filters.php:1213
+#: widgets/product-size-charts/product-size-charts.php:145
+#: widgets/product-size-charts/product-size-charts.php:274
+#: widgets/thankyou-address-details/thankyou-address-details.php:111
+#: widgets/thankyou-address-details/thankyou-address-details.php:174
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:55
+#: widgets/thankyou-order-details/thankyou-order-details.php:169
+#: widgets/thankyou-order-details/thankyou-order-details.php:247
+#: widgets/thankyou-order-details/thankyou-order-details.php:370
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:83
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:173
+msgid "Line Height (px)"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:130
+#: widgets/account-order-details/account-order-details.php:366
+msgid "Line Through"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:164
+#: widgets/account-downloads/account-downloads.php:84
+#: widgets/account-downloads/account-downloads.php:190
+#: widgets/account-navigation/account-navigation.php:102
+#: widgets/account-order-details/account-order-details.php:99
+#: widgets/account-orders/account-orders.php:86
+#: widgets/account-orders/account-orders.php:191
+#: widgets/product-filters/product-filters.php:767
+#: widgets/product-filters/product-filters.php:801
+msgid "Line-Height (px)"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:366
+#: widgets/flash-sale-products/flash-sale-products.php:1192
+msgid "Line-height (px)"
+msgstr ""
+
+#: modules/product-size-charts/product-size-charts.php:80
+msgid "Link"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:142
+#: widgets/account-form-register/account-form-register.php:287
+#: widgets/account-order-details/account-order-details.php:333
+#: widgets/account-orders/account-orders.php:142
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:152
+#: widgets/thankyou-order-details/thankyou-order-details.php:42
+msgid "Link Color"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:97
+msgid "Link color"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:156
+#: widgets/account-order-details/account-order-details.php:347
+#: widgets/account-orders/account-orders.php:156
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:166
+#: widgets/thankyou-order-details/thankyou-order-details.php:55
+msgid "Link Hover Color"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:110
+msgid "Link Hover color"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:123
+#: widgets/account-order-details/account-order-details.php:359
+msgid "Link text decoration"
+msgstr ""
+
+#: widgets/account-navigation/account-navigation.php:120
+msgid "List Box Shadow"
+msgstr ""
+
+#: widgets/account-navigation/account-navigation.php:37
+msgid "List Color"
+msgstr ""
+
+#: widgets/account-form-login/screens/default.php:70
+msgid "Log in"
+msgstr ""
+
+#: widgets/account-form-login/screens/password-reset-form.php:62
+msgid "Login now"
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:54
+msgid "Logout"
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:106
+msgid "Logout Color"
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:119
+msgid "Logout Hover Color"
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:51
+msgid "Logout Text"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:390
+msgid "Lost password"
+msgstr ""
+
+#: widgets/account-form-login/screens/default.php:74
+msgid "Lost your password?"
+msgstr ""
+
+#: widgets/account-form-login/screens/password-reset-mail-form.php:8
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:59
+msgid "Main Order"
+msgstr ""
+
+#: widgets/account-address/account-address.php:235
+#: widgets/account-address/account-address.php:392
+#: widgets/account-address/account-address.php:475
+#: widgets/account-details/account-details.php:83
+#: widgets/account-form-register/account-form-register.php:422
+#: widgets/account-order-details/account-order-details.php:457
+#: widgets/account-order-details/account-order-details.php:623
+#: widgets/best-selling-product/best-selling-product.php:561
+#: widgets/best-selling-product/best-selling-product.php:712
+msgid "Margin"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:86
+#: widgets/account-form-login/account-form-login.php:350
+#: widgets/account-form-register/account-form-register.php:139
+#: widgets/categories/categories.php:196
+#: widgets/product-filters/product-filters.php:1348
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:108
+msgid "Margin (px)"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1499
+msgid "Margin bottom"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:987
+msgid "Margin right"
+msgstr ""
+
+#: modules/back-order/back-order.php:597
+msgid "Max back-order limit"
+msgstr ""
+
+#: modules/back-order/back-order.php:359
+msgid "Max backorder limit"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:71
+msgid "Max Price"
+msgstr ""
+
+#: hooks/register-modules.php:195
+msgid "Maximum backorder limit"
+msgstr ""
+
+#: widgets/categories/categories.php:120
+msgid "Maximum Depth"
+msgstr ""
+
+#: modules/back-order/back-order.php:363 modules/back-order/back-order.php:600
+msgid "Maximum number of back-order allowed"
+msgstr ""
+
+#: widgets/account-address/account-address.php:83
+#: widgets/account-form-register/account-form-register.php:266
+msgid "Message"
+msgstr ""
+
+#: widgets/flash-sale-products/screens/default.php:122
+msgid "Min"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:61
+msgid "Min Price"
+msgstr ""
+
+#: modules/pre-order/frontend/single-product-functionality.php:261
+msgid "Minute/s"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:670
+msgid "Mobile (> 768px)"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:32
+msgid "Modal"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:553
+msgid "Move Icon Vertically"
+msgstr ""
+
+#: hooks/page-templates.php:73
+msgid "My Account Address"
+msgstr ""
+
+#: hooks/page-templates.php:65
+msgid "My Account Details"
+msgstr ""
+
+#: hooks/page-templates.php:49
+msgid "My Account Downloads"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login-config.php:34
+msgid "My Account Form Login"
+msgstr ""
+
+#: hooks/page-templates.php:26
+msgid "My Account Login / Register"
+msgstr ""
+
+#: hooks/page-templates.php:57
+msgid "My Account Order Details"
+msgstr ""
+
+#: hooks/page-templates.php:41
+#: widgets/account-orders/account-orders-config.php:16
+msgid "My Account Orders"
+msgstr ""
+
+#: widgets/categories/categories.php:48
+#: widgets/flash-sale-products/flash-sale-products.php:71
+#: widgets/product-filters/product-filters.php:228
+msgid "Name"
+msgstr ""
+
+#: hooks/register-modules.php:605 hooks/register-modules.php:695
+#: hooks/register-modules.php:785
+msgid "Name (unique key)"
+msgstr ""
+
+#: widgets/account-navigation/account-navigation.php:150
+msgid "Navigation Container"
+msgstr ""
+
+#: widgets/account-navigation/account-navigation.php:29
+msgid "Navigation List"
+msgstr ""
+
+#: widgets/account-form-login/screens/password-reset-form.php:37
+msgid "New password"
+msgstr ""
+
+#: hooks/register-modules.php:631 hooks/register-modules.php:721
+#: hooks/register-modules.php:811 widgets/account-orders/account-orders.php:366
+#: widgets/categories/categories.php:60 widgets/categories/categories.php:72
+#: widgets/categories/categories.php:84 widgets/categories/categories.php:96
+#: widgets/categories/categories.php:111
+#: widgets/comparison-button/comparison-button.php:53
+#: widgets/comparison-button/comparison-button.php:105
+#: widgets/comparison-button/comparison-button.php:116
+#: widgets/product-filters/product-filters.php:254
+#: widgets/product-filters/product-filters.php:266
+#: widgets/product-filters/product-filters.php:281
+msgid "No"
+msgstr ""
+
+#: widgets/flash-sale-products/screens/default.php:180
+msgid "No deal products available"
+msgstr ""
+
+#: widgets/thankyou-order-details/thankyou-order-details.php:504
+msgid "No order details found."
+msgstr ""
+
+#: widgets/account-order-details/screens/default.php:16
+#: widgets/thankyou-address-details/thankyou-address-details.php:238
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:270
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:234
+msgid "No order found."
+msgstr ""
+
+#: widgets/categories/screens/default.php:207
+msgid "No product categories exist."
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:131
+#: widgets/account-order-details/account-order-details.php:367
+#: widgets/comparison-button/comparison-button.php:344
+#: widgets/product-filters/product-filters.php:668
+msgid "None"
+msgstr ""
+
+#: widgets/account-address/account-address.php:550
+#: widgets/account-address/account-address.php:727
+#: widgets/account-details/account-details.php:162
+#: widgets/account-details/account-details.php:429
+#: widgets/account-downloads/account-downloads.php:383
+#: widgets/account-form-login/account-form-login.php:154
+#: widgets/account-form-register/account-form-register.php:163
+#: widgets/account-order-details/account-order-details.php:535
+#: widgets/account-order-details/account-order-details.php:722
+#: widgets/account-orders/account-orders.php:507
+#: widgets/account-orders/account-orders.php:598
+#: widgets/account-orders/account-orders.php:784
+#: widgets/best-selling-product/best-selling-product.php:773
+#: widgets/categories/categories.php:273 widgets/categories/categories.php:463
+#: widgets/comparison-button/comparison-button.php:263
+#: widgets/comparison-button/comparison-button.php:377
+#: widgets/currency-switcher/currency-switcher.php:87
+#: widgets/product-filters/product-filters.php:1228
+#: widgets/product-filters/product-filters.php:1525
+#: widgets/product-size-charts/product-size-charts.php:31
+#: widgets/product-size-charts/product-size-charts.php:298
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:81
+#: widgets/thankyou-order-details/thankyou-order-details.php:268
+#: widgets/thankyou-order-details/thankyou-order-details.php:391
+msgid "Normal"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1221
+msgid "Normal Line Color"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1231
+msgid "Normal Line Height"
+msgstr ""
+
+#: widgets/thankyou-order-details/screens/default.php:100
+msgid "Note:"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:565
+msgid "Note: Dropdown content with align according to button alignment."
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:215
+msgid ""
+"Note: Need to disable guest checkout from Woocommerce Settings for Partial "
+"Payment"
+msgstr ""
+
+#: widgets/account-address/account-address.php:60
+msgid ""
+"Note: This is just a demonstration of how a different Account Address will "
+"look in the frontend."
+msgstr ""
+
+#: hooks/register-modules.php:589 hooks/register-modules.php:679
+#: hooks/register-modules.php:769
+msgid "Number"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:753
+msgid "Number color"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:767
+msgid "Number typography"
+msgstr ""
+
+#: modules/badge/badge.php:127
+msgid "OFF"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:624
+msgid "Off-Canvas"
+msgstr ""
+
+#: modules/back-order/back-order.php:579
+msgid "On Back-Order"
+msgstr ""
+
+#: modules/back-order/back-order.php:733 modules/back-order/back-order.php:758
+#: modules/back-order/back-order.php:771 modules/back-order/back-order.php:783
+msgid "On Back-Order Only, Will be Available On: "
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:470
+#: widgets/product-filters/screens/onsale.php:4
+msgid "On Sale"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:455
+msgid "On Sale Filter"
+msgstr ""
+
+#: hooks/register-modules.php:619 hooks/register-modules.php:709
+#: hooks/register-modules.php:799
+msgid "Options (Only for radio type)"
+msgstr ""
+
+#: hooks/register-modules.php:620 hooks/register-modules.php:710
+#: hooks/register-modules.php:800
+msgid "Options format demo: 0=Yes,1=No"
+msgstr ""
+
+#: widgets/thankyou-thankyou/screens/default.php:34
+#: widgets/thankyou-thankyou/screens/default.php:43
+msgid "ORDER"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:52
+msgid "Order"
+msgstr ""
+
+#: hooks/page-templates.php:18
+msgid "Order / Thank you"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:615
+msgid "Order Again Button"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:65
+msgid "Order By"
+msgstr ""
+
+#: widgets/categories/categories.php:43
+#: widgets/product-filters/product-filters.php:223
+msgid "Order by"
+msgstr ""
+
+#: hooks/register-widgets.php:85
+#: widgets/thankyou-order-confirm/thankyou-order-confirm-config.php:15
+msgid "Order Confirm"
+msgstr ""
+
+#: widgets/thankyou-order-confirm/screens/default.php:41
+msgid "Order Confirmation"
+msgstr ""
+
+#: widgets/thankyou-order-confirm/screens/default.php:52
+msgid "Order Date"
+msgstr ""
+
+#: hooks/register-widgets.php:90
+#: widgets/thankyou-order-details/thankyou-order-details-config.php:15
+msgid "Order Details"
+msgstr ""
+
+#: widgets/thankyou-order-details/screens/default.php:52
+msgid "Order details"
+msgstr ""
+
+#: hooks/register-modules.php:822
+msgid "Order notes"
+msgstr ""
+
+#: widgets/thankyou-order-confirm/screens/default.php:46
+msgid "Order number"
+msgstr ""
+
+#: widgets/thankyou-order-confirm/screens/default.php:56
+msgid "Order status"
+msgstr ""
+
+#: libs/schedule/templates/order-mail-content.php:12
+msgid "Order Summery"
+msgstr ""
+
+#: hooks/register-widgets.php:95
+#: widgets/thankyou-thankyou/thankyou-thankyou-config.php:15
+msgid "Order Thank You"
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:268
+#: modules/pre-order/admin/pre-order-admin.php:76
+msgid "Order Type"
+msgstr ""
+
+#: modules/back-order/back-order.php:531
+msgid "Order type"
+msgstr ""
+
+#: modules/back-order/back-order.php:723 modules/back-order/back-order.php:748
+msgid "Out of stock."
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:129
+#: widgets/account-order-details/account-order-details.php:365
+msgid "Overline"
+msgstr ""
+
+#: hooks/register-modules.php:455
+msgid "Override WooCommerce sale price"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:430
+#: widgets/flash-sale-products/flash-sale-products.php:593
+msgid "Paddig"
+msgstr ""
+
+#: hooks/register-modules.php:1105 hooks/register-modules.php:1136
+#: hooks/register-modules.php:1162 hooks/register-modules.php:1200
+#: widgets/account-address/account-address.php:706
+#: widgets/account-details/account-details.php:595
+#: widgets/account-downloads/account-downloads.php:303
+#: widgets/account-form-register/account-form-register.php:126
+#: widgets/account-form-register/account-form-register.php:401
+#: widgets/account-order-details/account-order-details.php:437
+#: widgets/account-order-details/account-order-details.php:643
+#: widgets/account-orders/account-orders.php:411
+#: widgets/account-orders/account-orders.php:684
+#: widgets/best-selling-product/best-selling-product.php:222
+#: widgets/best-selling-product/best-selling-product.php:382
+#: widgets/best-selling-product/best-selling-product.php:484
+#: widgets/best-selling-product/best-selling-product.php:662
+#: widgets/best-selling-product/best-selling-product.php:692
+#: widgets/currency-switcher/currency-switcher.php:183
+#: widgets/flash-sale-products/flash-sale-products.php:272
+msgid "Padding"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:882
+msgid "padding"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:137
+#: widgets/account-form-login/account-form-login.php:329
+#: widgets/categories/categories.php:321
+#: widgets/comparison-button/comparison-button.php:191
+#: widgets/product-filters/product-filters.php:1329
+#: widgets/product-size-charts/product-size-charts.php:429
+#: widgets/product-size-charts/product-size-charts.php:488
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:208
+#: widgets/thankyou-order-details/thankyou-order-details.php:105
+msgid "Padding (px)"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:676
+msgid "Pagination Button"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:764
+msgid "Pagination Buttons"
+msgstr ""
+
+#: libs/schedule/templates/order-mail-content.php:42
+msgid "Paid"
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:197
+msgid "Partial Amount Type"
+msgstr ""
+
+#: hooks/register-modules.php:45
+#: modules/partial-payment/admin/partial-payment-admin.php:190
+#: modules/partial-payment/admin/partial-payment-admin.php:282
+#: modules/partial-payment/frontend/cart/partial-payment-cart.php:51
+#: modules/partial-payment/settings/partial-payment-data.php:32
+msgid "Partial Payment"
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:208
+msgid "Partial Payment Amount"
+msgstr ""
+
+#: modules/partial-payment/partial-payment.php:63
+msgid "Partial Payment Installment"
+msgstr ""
+
+#: modules/partial-payment/partial-payment.php:62
+#: modules/partial-payment/partial-payment.php:67
+msgid "Partial Payment Installments"
+msgstr ""
+
+#: hooks/register-modules.php:96
+msgid "Partial Payment Label"
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:70
+msgid "Partial Payments"
+msgstr ""
+
+#: modules/partial-payment/templates/frontend/order/order-summery.php:17
+msgid "Partial payments summary"
+msgstr ""
+
+#: widgets/account-form-login/screens/default.php:54
+#: widgets/account-form-register/screens/default.php:53
+msgid "Password"
+msgstr ""
+
+#: modules/partial-payment/templates/frontend/order/order-summery.php:50
+msgid "Pay Due Payment"
+msgstr ""
+
+#: libs/schedule/templates/order-mail-content.php:52
+msgid "Pay now"
+msgstr ""
+
+#: modules/partial-payment/templates/admin/partial-payments-summery.php:24
+#: modules/partial-payment/templates/frontend/order/order-summery.php:25
+msgid "Payment ID"
+msgstr ""
+
+#: hooks/register-modules.php:80
+msgid ""
+"Payment method selection will be hidden on the first checkout, but for the "
+"second installment, all payment methods will appear"
+msgstr ""
+
+#: hooks/register-modules.php:540
+msgid "Percent"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:215
+msgid "Percentage Badge"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:419
+msgid "Percentage badge"
+msgstr ""
+
+#: hooks/register-modules.php:612 hooks/register-modules.php:702
+#: hooks/register-modules.php:792
+msgid "Placeholder"
+msgstr ""
+
+#: widgets/currency-switcher/screens/default.php:28
+msgid "Please active shopengine currency switcher module"
+msgstr ""
+
+#: widgets/flash-sale-products/screens/default.php:183
+msgid "Please active shopengine flash sale module"
+msgstr ""
+
+#: modules/partial-payment/frontend/order/create-order.php:189
+msgid "Please login from"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:73
+msgid "Popular"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:297
+#: widgets/flash-sale-products/flash-sale-products.php:388
+msgid "Position"
+msgstr ""
+
+#: hooks/register-modules.php:639 hooks/register-modules.php:729
+msgid "Position (After)"
+msgstr ""
+
+#: hooks/register-modules.php:819
+msgid "Position (Before)"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:595
+msgid "Position Controls"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:470
+#: widgets/flash-sale-products/flash-sale-products.php:633
+msgid "Position left"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:493
+#: widgets/flash-sale-products/flash-sale-products.php:656
+msgid "Position top"
+msgstr ""
+
+#: modules/pre-order/pre-order.php:41
+msgid "Pre order"
+msgstr ""
+
+#: hooks/register-modules.php:131
+#: modules/pre-order/admin/pre-order-admin.php:46
+#: modules/pre-order/admin/pre-order-admin.php:99
+msgid "Pre-Order"
+msgstr ""
+
+#: hooks/register-modules.php:149
+msgid "Pre-Order Closed Label"
+msgstr ""
+
+#: hooks/register-modules.php:156
+msgid "Pre-Order Countdown"
+msgstr ""
+
+#: hooks/register-modules.php:163
+msgid "Pre-Order Countdown Label"
+msgstr ""
+
+#: modules/pre-order/frontend/cart-functionality.php:92
+#: modules/pre-order/frontend/cart-functionality.php:141
+msgid "Pre-Order Item quantity exceeded"
+msgstr ""
+
+#: hooks/register-modules.php:141
+msgid "Pre-Order Label"
+msgstr ""
+
+#: modules/pre-order/admin/pre-order-admin-fields.php:99
+msgid "Pre-Order Price"
+msgstr ""
+
+#: modules/pre-order/frontend/single-product-functionality.php:153
+msgid "Pre-Order Price:"
+msgstr ""
+
+#: modules/pre-order/admin/pre-order-admin-fields.php:109
+msgid "Pre-Order Product Message"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:36
+msgid "Price Filter"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1441
+msgid "Price Filter / Range Slider"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:53
+msgid "Price Range"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1038
+msgid "Price Row Margin"
+msgstr ""
+
+#: hooks/register-modules.php:913
+msgid "Primary Color"
+msgstr ""
+
+#: widgets/thankyou-order-details/screens/default.php:58
+msgid "Product"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:195
+msgid "Product Border"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:321
+#: widgets/product-filters/product-filters.php:215
+msgid "Product Categories"
+msgstr ""
+
+#: modules/product-size-charts/product-size-charts.php:67
+msgid "Product Chart"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:164
+msgid "Product Colors"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:29
+#: widgets/comparison-button/comparison-button.php:30
+msgid "Product Compare"
+msgstr ""
+
+#: hooks/register-widgets.php:75
+#: widgets/product-filters/product-filters-config.php:14
+msgid "Product Filters"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:346
+msgid "Product image"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:308
+msgid "Product Images"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:350
+msgid "Product Label"
+msgstr ""
+
+#: hooks/register-modules.php:238
+msgid "Product Limit"
+msgstr ""
+
+#: libs/schedule/templates/order-mail-content.php:16
+msgid "Product Name"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:581
+msgid "Product Price"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:137
+msgid "Product rating"
+msgstr ""
+
+#: hooks/register-modules.php:848 hooks/register-widgets.php:120
+msgid "Product Size Chart"
+msgstr ""
+
+#: hooks/register-modules.php:840
+#: widgets/product-size-charts/product-size-charts-config.php:14
+msgid "Product Size Charts"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:186
+msgid "Product Style"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:411
+msgid "Product Title"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:264
+msgid "Product wrapper"
+msgstr ""
+
+#: modules/flash-sale/route.php:40 modules/flash-sale/route.php:72
+msgid "products fetched"
+msgstr ""
+
+#: hooks/register-modules.php:517
+msgid "Products List"
+msgstr ""
+
+#: libs/schedule/templates/order-mail-content.php:17
+#: modules/back-order/common/item-meta-format.php:23
+msgid "Quantity"
+msgstr ""
+
+#: hooks/register-modules.php:30 modules/quick-checkout/quick-checkout.php:63
+msgid "Quick Checkout"
+msgstr ""
+
+#: hooks/register-modules.php:597 hooks/register-modules.php:687
+#: hooks/register-modules.php:777
+msgid "Radio"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1476
+msgid "Range Pricing Text Color"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:88
+#: widgets/best-selling-product/best-selling-product.php:503
+msgid "Rating"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:106
+#: widgets/product-filters/product-filters.php:1597
+msgid "Rating Filter"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1605
+msgid "Rating Icon"
+msgstr ""
+
+#: widgets/account-form-login/screens/password-reset-form.php:44
+msgid "Re-enter new password"
+msgstr ""
+
+#: widgets/account-form-register/screens/default.php:73
+msgid "Register"
+msgstr ""
+
+#: widgets/account-form-register/screens/default.php:85
+msgid "Register option is turned off from settings"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:637
+#: widgets/product-filters/screens/onsale.php:5
+msgid "Regular Price"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1059
+msgid "Regular Price Color"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1073
+msgid "Regular Price Typography"
+msgstr ""
+
+#: modules/pre-order/frontend/single-product-functionality.php:305
+msgid "Remaining Item/s:"
+msgstr ""
+
+#: widgets/account-form-login/screens/default.php:66
+msgid "Remember me"
+msgstr ""
+
+#: libs/schedule/partial-payment-schedule.php:46
+msgid "Reminder for second installment payment"
+msgstr ""
+
+#: modules/badge/term-hooks.php:138
+msgid "Remove image"
+msgstr ""
+
+#: hooks/register-modules.php:627 hooks/register-modules.php:717
+#: hooks/register-modules.php:807
+msgid "Required"
+msgstr ""
+
+#: widgets/account-address/account-address.php:440
+#: widgets/account-details/account-details.php:47
+msgid "Required Color"
+msgstr ""
+
+#: widgets/account-form-login/account-form-login.php:50
+#: widgets/account-form-register/account-form-register.php:50
+msgid "Required Indicator Color:"
+msgstr ""
+
+#: widgets/product-filters/screens/price.php:37
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+#: widgets/product-filters/product-filters.php:1489
+msgid "Reset Button"
+msgstr ""
+
+#: widgets/account-form-login/screens/password-reset-mail-form.php:25
+msgid "Reset password"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:211
+msgid ""
+"Responsive stripe background Control appears on tablet and mobile devices"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:273
+msgid "Responsive Striped Background"
+msgstr ""
+
+#: hooks/register-modules.php:412 hooks/register-modules.php:890
+#: widgets/account-logout/account-logout.php:75
+#: widgets/account-orders/account-orders.php:349
+#: widgets/comparison-button/comparison-button.php:165
+#: widgets/product-filters/product-filters.php:561
+#: widgets/product-filters/product-filters.php:612
+#: widgets/product-size-charts/product-size-charts.php:96
+#: widgets/thankyou-address-details/thankyou-address-details.php:54
+msgid "Right"
+msgstr ""
+
+#: hooks/register-modules.php:978 hooks/register-modules.php:1058
+#: widgets/comparison-button/comparison-button.php:639
+msgid "Right Position"
+msgstr ""
+
+#: hooks/register-modules.php:414
+msgid "Right Space"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1211
+msgid "Round"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1209
+msgid "round"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:201
+msgid "Row Border and Responsive Stripe"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:213
+msgid "Row Border and Stripe"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:133
+msgid "Row gap"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:191
+msgid "Sale"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:189
+#: widgets/flash-sale-products/flash-sale-products.php:582
+msgid "Sale badge"
+msgstr ""
+
+#: hooks/register-modules.php:473
+msgid "Sale Events"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1100
+msgid "Sale Price Color"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1115
+msgid "Sale Price Typography"
+msgstr ""
+
+#: hooks/register-modules.php:211
+msgid "Sales Notification"
+msgstr ""
+
+#: widgets/account-form-login/screens/password-reset-form.php:59
+msgid "Save"
+msgstr ""
+
+#: modules/partial-payment/partial-payment.php:65
+msgid "Search Partial Payment Installments"
+msgstr ""
+
+#: widgets/flash-sale-products/screens/default.php:127
+msgid "Sec"
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:139
+#: modules/partial-payment/settings/partial-payment-data.php:35
+msgid "Second Installment"
+msgstr ""
+
+#: hooks/register-modules.php:117
+msgid "Second Installment Label"
+msgstr ""
+
+#: hooks/register-modules.php:920
+msgid "Secondary Color"
+msgstr ""
+
+#: widgets/categories/screens/default.php:185
+msgid "Select a category"
+msgstr ""
+
+#: hooks/register-modules.php:1255
+msgid "Select Attributes to Show"
+msgstr ""
+
+#: modules/badge/product-tab.php:65
+msgid "Select badges"
+msgstr ""
+
+#: hooks/register-modules.php:1267
+msgid "Select Custom Meta"
+msgstr ""
+
+#: hooks/register-modules.php:54
+msgid "Select either fixed amount or percentage of partial payment"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:33
+msgid "Select Flash Sale"
+msgstr ""
+
+#: hooks/register-modules.php:87
+msgid "Send Mail After Order Date in Day/s"
+msgstr ""
+
+#: hooks/register-modules.php:88
+msgid ""
+"Set day/s when ShopEngine send mail after order created for Partial Payment "
+"second installment"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:169
+msgid "Settings"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:451
+msgid "Shadow"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:390
+msgid "Shipping"
+msgstr ""
+
+#: widgets/account-address/account-address.php:31
+msgid "Shipping Address Form"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:375
+msgid "Shipping Filter"
+msgstr ""
+
+#: hooks/register-modules.php:661
+msgid "Shipping form input field  list"
+msgstr ""
+
+#: modules/badge/badge.php:25
+msgid "Shopengine Badge"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ShopEngine Pro"
+msgstr ""
+
+#: shopengine-pro.php:305
+msgid "ShopEngine Pro requires ShopEngine, which is currently NOT RUNNING. "
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:77
+#: widgets/best-selling-product/best-selling-product.php:90
+#: widgets/best-selling-product/best-selling-product.php:103
+#: widgets/flash-sale-products/flash-sale-products.php:179
+#: widgets/flash-sale-products/flash-sale-products.php:217
+#: widgets/flash-sale-products/flash-sale-products.php:229
+#: widgets/flash-sale-products/flash-sale-products.php:241
+#: widgets/product-filters/product-filters.php:122
+#: widgets/product-filters/product-filters.php:174
+#: widgets/product-filters/product-filters.php:238
+#: widgets/product-filters/product-filters.php:318
+#: widgets/product-filters/product-filters.php:360
+#: widgets/product-filters/product-filters.php:400
+#: widgets/product-filters/product-filters.php:440
+#: widgets/product-filters/product-filters.php:480
+#: widgets/product-filters/product-filters.php:582
+#: widgets/product-filters/product-filters.php:1134
+#: widgets/product-filters/product-filters.php:1146
+msgid "Show"
+msgstr ""
+
+#: widgets/categories/categories.php:57
+msgid "Show as dropdown"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:75
+msgid "Show Categories"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:187
+msgid "Show Color Dot"
+msgstr ""
+
+#: hooks/register-modules.php:1292
+msgid "Show Compare Button/Bar on Bottom"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:112
+msgid "Show Counter Badge? "
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:101
+msgid "Show Counter? "
+msgstr ""
+
+#: hooks/register-modules.php:311
+msgid "Show Currency Symbol on Dropdown"
+msgstr ""
+
+#: widgets/categories/categories.php:81
+#: widgets/product-filters/product-filters.php:251
+msgid "Show hierarchy"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:580
+msgid "Show Icon"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:49
+msgid "Show Icon? "
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:64
+msgid "Show Maximum Product"
+msgstr ""
+
+#: hooks/register-modules.php:246
+msgid "Show Notification again after user cancel (Day)"
+msgstr ""
+
+#: hooks/register-modules.php:254
+msgid "Show Notification on every __ milliseconds"
+msgstr ""
+
+#: widgets/categories/categories.php:93
+#: widgets/product-filters/product-filters.php:263
+msgid "Show parent only"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:81
+msgid "Show Product"
+msgstr ""
+
+#: widgets/categories/categories.php:69
+msgid "Show product counts"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:47
+msgid "Show Product Of"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:101
+msgid "Show Regular Price"
+msgstr ""
+
+#: hooks/register-modules.php:220
+msgid "Show Thumbnail Of"
+msgstr ""
+
+#: hooks/register-modules.php:950 hooks/register-modules.php:1023
+#: widgets/flash-sale-products/flash-sale-products.php:373
+msgid "Size"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:73
+msgid "Size Chart Style"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:241
+msgid "Size Charts Button"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:452
+msgid "Size Charts Popup"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:20
+msgid "Size Charts Settings"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1451
+msgid "Slider Color"
+msgstr ""
+
+#: widgets/flash-sale-products/screens/default.php:163
+msgid "Sold:"
+msgstr ""
+
+#: modules/back-order/back-order.php:474
+msgid "soon"
+msgstr ""
+
+#: modules/back-order/back-order.php:100
+msgid "Sorry, \"%s\" has reached its max back-order limit."
+msgstr ""
+
+#: modules/back-order/back-order.php:507
+msgid "Sorry, \"%s\" is out of stock, please remove it from your cart."
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1633
+msgid "Space between"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:178
+msgid "Space between (px)"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:902
+msgid "Space bottom"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1212
+#: widgets/product-filters/product-filters.php:85
+msgid "Square"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:549
+msgid "Star Gap (px)"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1656
+msgid "Star Size"
+msgstr ""
+
+#: modules/partial-payment/templates/admin/partial-payments-summery.php:25
+#: modules/partial-payment/templates/frontend/order/order-summery.php:26
+msgid "Status"
+msgstr ""
+
+#: hooks/register-modules.php:929
+msgid "Sticky Button"
+msgstr ""
+
+#: hooks/register-modules.php:1001
+msgid "Sticky Button Counter"
+msgstr ""
+
+#: hooks/register-modules.php:872
+msgid "Sticky Fly Cart"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:430
+msgid "Stock"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1149
+msgid "Stock and progress bar"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:415
+msgid "Stock Filter"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:223
+msgid "stripe background Control appears on tablet and mobile devices"
+msgstr ""
+
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:115
+#: widgets/thankyou-order-details/thankyou-order-details.php:302
+#: widgets/thankyou-order-details/thankyou-order-details.php:425
+msgid "Striped"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:258
+msgid "Striped Background"
+msgstr ""
+
+#: widgets/account-logout/account-logout.php:97
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:25
+msgid "Style"
+msgstr ""
+
+#: widgets/thankyou-address-details/thankyou-address-details.php:24
+msgid "Styles"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1696
+msgid "Sub Category Padding"
+msgstr ""
+
+#: widgets/categories/categories.php:369
+msgid "Sub Category Padding Left (px)"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:146
+msgid "Table and Title"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:108
+#: widgets/account-order-details/account-order-details.php:269
+#: widgets/account-orders/account-orders.php:105
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:24
+#: widgets/thankyou-order-details/thankyou-order-details.php:215
+msgid "Table Body"
+msgstr ""
+
+#: widgets/thankyou-order-details/thankyou-order-details.php:26
+msgid "Table Common"
+msgstr ""
+
+#: widgets/thankyou-order-details/thankyou-order-details.php:129
+msgid "Table Data"
+msgstr ""
+
+#: widgets/thankyou-order-details/thankyou-order-details.php:338
+msgid "Table Footer"
+msgstr ""
+
+#: widgets/thankyou-order-details/thankyou-order-details.php:137
+msgid "Table Header"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:29
+#: widgets/account-orders/account-orders.php:29
+msgid "Table Heading"
+msgstr ""
+
+#: widgets/account-order-details/account-order-details.php:215
+msgid "Table Horizontial Padding (px)"
+msgstr ""
+
+#: widgets/thankyou-order-details/thankyou-order-details.php:34
+msgid "Table Links"
+msgstr ""
+
+#: widgets/thankyou-order-details/thankyou-order-details.php:68
+msgid "Table Row"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:669
+msgid "Tablet (> 1025px)"
+msgstr ""
+
+#: hooks/register-modules.php:593 hooks/register-modules.php:683
+#: hooks/register-modules.php:773
+msgid "Tel"
+msgstr ""
+
+#: hooks/register-modules.php:588 hooks/register-modules.php:678
+#: hooks/register-modules.php:768
+msgid "Text"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:56
+msgid "Text and Link Font Weight"
+msgstr ""
+
+#: widgets/account-details/account-details.php:169
+#: widgets/account-details/account-details.php:254
+#: widgets/account-downloads/account-downloads.php:37
+#: widgets/account-downloads/account-downloads.php:129
+#: widgets/account-order-details/account-order-details.php:154
+#: widgets/account-order-details/account-order-details.php:277
+#: widgets/account-orders/account-orders.php:37
+#: widgets/account-orders/account-orders.php:126
+#: widgets/comparison-button/comparison-button.php:270
+#: widgets/comparison-button/comparison-button.php:304
+#: widgets/comparison-button/comparison-button.php:763
+#: widgets/currency-switcher/currency-switcher.php:93
+#: widgets/currency-switcher/currency-switcher.php:132
+#: widgets/flash-sale-products/flash-sale-products.php:1157
+#: widgets/product-filters/product-filters.php:1531
+#: widgets/product-filters/product-filters.php:1564
+msgid "Text Color"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:43
+msgid "Text color"
+msgstr ""
+
+#: widgets/account-downloads/account-downloads.php:170
+#: widgets/account-order-details/account-order-details.php:291
+#: widgets/account-orders/account-orders.php:171
+#: widgets/flash-sale-products/flash-sale-products.php:1171
+msgid "Text Typography"
+msgstr ""
+
+#: hooks/register-modules.php:591 hooks/register-modules.php:681
+#: hooks/register-modules.php:771
+msgid "Textarea"
+msgstr ""
+
+#: hooks/register-widgets.php:80
+msgid "Thank You Address Details"
+msgstr ""
+
+#: widgets/thankyou-thankyou/screens/default.php:46
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The most advanced addons for Elementor with tons of widgets, layout pack and "
+"powerful custom controls."
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:774
+msgid "The pagination buttons control will modify next and previous buttons"
+msgstr ""
+
+#: modules/currency-switcher/base/currency-rates-update.php:49
+msgid "This api service product not have your some currencies"
+msgstr ""
+
+#: modules/currency-switcher/base/currency-switcher-admin.php:25
+msgid ""
+"This field is for frontend display settings only. ShopEngine has been "
+"activated. Please set the default currency from %s."
+msgstr ""
+
+#: widgets/account-details/account-details.php:631
+#: widgets/account-form-login/account-form-login.php:464
+#: widgets/account-form-register/account-form-register.php:451
+#: widgets/account-order-details/account-order-details.php:873
+#: widgets/categories/categories.php:580
+#: widgets/flash-sale-products/flash-sale-products.php:1293
+#: widgets/thankyou-address-details/thankyou-address-details.php:208
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:241
+#: widgets/thankyou-order-details/thankyou-order-details.php:474
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:204
+msgid "This font family is set for this specific widget."
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:114
+msgid "This is a sub-order of %s"
+msgstr ""
+
+#: modules/flash-sale/base/flash-sale-backend.php:17
+msgid ""
+"This sale price will not affect your customer. The selling price of this "
+"product is being handled from the shopengine plugin. "
+msgstr ""
+
+#: widgets/account-address/account-address.php:690
+msgid "This style is applicable to : Form Input"
+msgstr ""
+
+#: hooks/register-modules.php:594 hooks/register-modules.php:684
+#: hooks/register-modules.php:774
+msgid "Time"
+msgstr ""
+
+#: modules/partial-payment/templates/admin/partial-payments-summery.php:23
+#: modules/partial-payment/templates/frontend/order/order-summery.php:24
+#: widgets/account-address/account-address.php:176
+#: widgets/categories/categories.php:33 widgets/categories/categories.php:134
+#: widgets/flash-sale-products/flash-sale-products.php:70
+#: widgets/product-filters/product-filters.php:51
+#: widgets/product-filters/product-filters.php:135
+#: widgets/product-filters/product-filters.php:162
+#: widgets/product-filters/product-filters.php:213
+#: widgets/product-filters/product-filters.php:306
+#: widgets/product-filters/product-filters.php:348
+#: widgets/product-filters/product-filters.php:388
+#: widgets/product-filters/product-filters.php:428
+#: widgets/product-filters/product-filters.php:468
+#: widgets/product-filters/product-filters.php:1115
+#: widgets/thankyou-address-details/thankyou-address-details.php:69
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:38
+msgid "Title"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:313
+#: widgets/flash-sale-products/flash-sale-products.php:964
+msgid "Title Color"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:977
+msgid "Title Hover Color"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:1018
+msgid "Title Margin"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:871
+msgid "Title padding Bottom"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:991
+#: widgets/product-filters/product-filters.php:746
+#: widgets/product-size-charts/product-size-charts.php:123
+msgid "Title Typography"
+msgstr ""
+
+#: widgets/flash-sale-products/flash-sale-products.php:203
+msgid "Title word limit"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:610
+msgid "To add bottom position, empty top position"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:640
+msgid "To add left position, empty right position"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:696
+msgid "To add right position, empty left position"
+msgstr ""
+
+#: widgets/comparison-button/comparison-button.php:670
+msgid "To add top position, empty bottom position"
+msgstr ""
+
+#: modules/partial-payment/settings/partial-payment-data.php:36
+msgid "To Pay"
+msgstr ""
+
+#: hooks/register-modules.php:124
+msgid "To Pay Label for Checkout Page"
+msgstr ""
+
+#: shopengine-pro.php:314
+msgid ""
+"To run properly ShopEngine Pro requires ShopEngine minimum version 2.0.0-beta"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:539
+msgid "Toggle Button Text"
+msgstr ""
+
+#: widgets/best-selling-product/best-selling-product.php:301
+#: widgets/flash-sale-products/flash-sale-products.php:392
+msgid "Top"
+msgstr ""
+
+#: hooks/register-modules.php:971 hooks/register-modules.php:1051
+#: widgets/comparison-button/comparison-button.php:609
+msgid "Top Position"
+msgstr ""
+
+#: libs/schedule/templates/order-mail-content.php:18
+#: libs/schedule/templates/order-mail-content.php:38
+#: widgets/thankyou-order-details/screens/default.php:59
+msgid "Total"
+msgstr ""
+
+#: modules/partial-payment/frontend/order/partial-payment-order.php:112
+msgid "Total:"
+msgstr ""
+
+#: hooks/register-modules.php:585 hooks/register-modules.php:675
+#: hooks/register-modules.php:765
+msgid "Type"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:54
+#: widgets/product-filters/product-filters.php:138
+#: widgets/product-filters/product-filters.php:165
+#: widgets/product-filters/product-filters.php:216
+#: widgets/product-filters/product-filters.php:309
+#: widgets/product-filters/product-filters.php:351
+#: widgets/product-filters/product-filters.php:391
+#: widgets/product-filters/product-filters.php:431
+#: widgets/product-filters/product-filters.php:471
+msgid "Type your title here"
+msgstr ""
+
+#: widgets/account-address/account-address.php:199
+#: widgets/account-address/account-address.php:282
+#: widgets/account-address/account-address.php:689
+#: widgets/account-address/account-address.php:814
+#: widgets/account-dashboard/account-dashboard.php:144
+#: widgets/account-details/account-details.php:61
+#: widgets/account-details/account-details.php:119
+#: widgets/account-details/account-details.php:352
+#: widgets/account-downloads/account-downloads.php:64
+#: widgets/account-logout/account-logout.php:133
+#: widgets/account-navigation/account-navigation.php:82
+#: widgets/account-order-details/account-order-details.php:181
+#: widgets/account-orders/account-orders.php:66
+#: widgets/best-selling-product/best-selling-product.php:346
+#: widgets/best-selling-product/best-selling-product.php:445
+#: widgets/best-selling-product/best-selling-product.php:602
+#: widgets/categories/categories.php:156 widgets/categories/categories.php:230
+#: widgets/categories/categories.php:410
+#: widgets/comparison-button/comparison-button.php:212
+#: widgets/flash-sale-products/flash-sale-products.php:544
+#: widgets/flash-sale-products/flash-sale-products.php:707
+#: widgets/product-filters/product-filters.php:1189
+#: widgets/product-size-charts/product-size-charts.php:252
+#: widgets/thankyou-address-details/thankyou-address-details.php:92
+#: widgets/thankyou-address-details/thankyou-address-details.php:155
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:33
+#: widgets/thankyou-order-details/thankyou-order-details.php:147
+#: widgets/thankyou-order-details/thankyou-order-details.php:225
+#: widgets/thankyou-order-details/thankyou-order-details.php:348
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:61
+#: widgets/thankyou-thankyou/thankyou-thankyou.php:151
+msgid "Typography"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:128
+#: widgets/account-order-details/account-order-details.php:364
+msgid "Underline"
+msgstr ""
+
+#: widgets/thankyou-thankyou/screens/default.php:37
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: modules/badge/term-hooks.php:134
+msgid "Upload image"
+msgstr ""
+
+#: hooks/register-modules.php:595 hooks/register-modules.php:685
+#: hooks/register-modules.php:775
+msgid "Url"
+msgstr ""
+
+#: modules/badge/badge.php:101
+msgid "Use image"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:70
+msgid "User color"
+msgstr ""
+
+#: widgets/account-dashboard/account-dashboard.php:83
+msgid "User Font Weight"
+msgstr ""
+
+#: modules/flash-sale/route.php:86
+msgid "user roles fetched"
+msgstr ""
+
+#: widgets/account-form-register/screens/default.php:33
+msgid "Username"
+msgstr ""
+
+#: widgets/account-form-login/screens/default.php:46
+#: widgets/account-form-login/screens/password-reset-mail-form.php:12
+msgid "Username or email address"
+msgstr ""
+
+#: hooks/register-modules.php:255
+msgid "Using this input field your can set notification delay/interval time"
+msgstr ""
+
+#: widgets/product-filters/product-filters.php:1059
+msgid "Vertical position"
+msgstr ""
+
+#: modules/partial-payment/admin/partial-payment-admin.php:117
+msgid "View"
+msgstr ""
+
+#: widgets/account-orders/account-orders.php:496
+msgid "View Button"
+msgstr ""
+
+#: modules/sticky-fly-cart/screens/default.php:35
+msgid "View Cart"
+msgstr ""
+
+#: widgets/product-size-charts/product-size-charts.php:28
+msgid "View chart as"
+msgstr ""
+
+#: widgets/account-form-login/screens/default.php:22
+msgid ""
+"We have sent a mail to you with password reset link. Please check your email."
+msgstr ""
+
+#: modules/back-order/back-order.php:376 modules/back-order/back-order.php:610
+msgid "When the product will be available for shipment"
+msgstr ""
+
+#: hooks/register-modules.php:1112
+#: widgets/comparison-button/comparison-button.php:179
+#: widgets/comparison-button/comparison-button.php:361
+msgid "Width"
+msgstr ""
+
+#: widgets/categories/categories.php:547
+#: widgets/thankyou-order-confirm/thankyou-order-confirm.php:186
+#: widgets/thankyou-order-details/thankyou-order-details.php:84
+msgid "Width (px)"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wpmet"
+msgstr ""
+
+#: widgets/thankyou-address-details/thankyou-address-details.php:33
+msgid "Wrap"
+msgstr ""
+
+#: hooks/register-modules.php:1225
+msgid "Wrap Padding"
+msgstr ""
+
+#: hooks/register-modules.php:630 hooks/register-modules.php:720
+#: hooks/register-modules.php:810
+#: modules/back-order/common/item-meta-format.php:19
+#: widgets/account-orders/account-orders.php:365
+#: widgets/categories/categories.php:59 widgets/categories/categories.php:71
+#: widgets/categories/categories.php:83 widgets/categories/categories.php:95
+#: widgets/categories/categories.php:110
+#: widgets/comparison-button/comparison-button.php:52
+#: widgets/comparison-button/comparison-button.php:104
+#: widgets/comparison-button/comparison-button.php:115
+#: widgets/product-filters/product-filters.php:253
+#: widgets/product-filters/product-filters.php:265
+#: widgets/product-filters/product-filters.php:280
+msgid "Yes"
+msgstr ""
+
+#: hooks/register-modules.php:263
+msgid ""
+"You can keep a single notification visible on screen based on this input "
+"value."
+msgstr ""
+
+#: modules/partial-payment/frontend/order/create-order.php:193
+msgid "You must be logged in to checkout for partial payment"
+msgstr ""
+
+#: widgets/account-address/account-address.php:844
+#: widgets/account-dashboard/account-dashboard.php:207
+#: widgets/account-details/account-details.php:650
+#: widgets/account-navigation/account-navigation.php:199
+#: widgets/account-order-details/account-order-details.php:894
+#: widgets/account-orders/account-orders.php:868
+msgid "You need first to be logged in"
+msgstr ""
+
+#: widgets/account-logout/screens/default.php:19
+msgid "You need to logged in first"
+msgstr ""
+
+#: modules/currency-switcher/base/currency-rates-update.php:44
+msgid "Your Currencies Rate Updated Successfully!"
+msgstr ""

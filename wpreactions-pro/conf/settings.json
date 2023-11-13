@@ -1,0 +1,9 @@
+{
+  "woo_integration"          : 0,
+  "woo_location"             : "woocommerce_share",
+  "woo_custom_product_hook"  : "",
+  "woo_shortcode_id"         : 0,
+  "user_reaction_limitation" : 1,
+  "purge_on_uninstallation"  : 0,
+  "log_level"                : 0
+}

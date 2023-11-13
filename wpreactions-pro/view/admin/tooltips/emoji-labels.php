@@ -1,0 +1,1 @@
+<p>Name your reactions to describe the feeling or emotion.Try to keep characters down to 7 or less for the best user experience.Check your work live by hovering over the floating preview icon to your right.</p>

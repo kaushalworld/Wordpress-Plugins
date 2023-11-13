@@ -1,0 +1,1 @@
+<p>For advanced users and developers. <a href="<?php WPRA\Helpers\Utils::linkToDoc('wpreactions', 'woo-custom-hook'); ?>" target="_blank">Learn more.</a></p>

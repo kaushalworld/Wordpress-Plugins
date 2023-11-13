@@ -1,0 +1,590 @@
+<wpml-config>
+    <elementor-widgets>
+        <widget name="exad-author-box">
+            <fields>
+                <field type="Author Box : Not Logged in Message" editor_type="LINE">exad_author_before_login_message</field>
+                <field type="Author Box : Author Name" editor_type="LINE">exad_author_custom_name</field>
+                <field type="Author Box : Author Url" editor_type="LINK" key_of="exad_author_custom_name_url">url</field>
+                <field type="Author Box : Email Url" editor_type="LINK" key_of="exad_author_custom_email_url">url</field>
+                <field type="Author Box : Author Description" editor_type="AREA">exad_author_custom_description</field>
+                <field type="Author Box : Email Url" editor_type="LINK" key_of="exad_author_custom_name_url">url</field>
+                <field type="Author Box : website Url" editor_type="LINK" key_of="exad_author_custom_website_url">url</field>
+            </fields>
+            <fields-in-item items_of="exad_author_box_social_profile">
+                <field type="Author Box : Link URL" editor_type="LINK" key_of="exad_author_box_social_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-breadcrumbs">
+            <conditions>
+                <condition key="widgetType">exad-breadcrumbs</condition>
+            </conditions>
+            <fields>
+                <field type="Breadcrumbs : Text For Home" editor_type="LINE">exad_breadcrumbs_home_text</field>
+                <field type="Breadcrumbs : Symbol" editor_type="LINK" key_of="exad_breadcrumbs_separate_arrow_text">url</field>
+            </fields>
+        </widget>
+        <widget name="exad-business-hours">
+            <fields>
+                <field type="Business Hours : Heading" editor_type="LINE">exad_business_hours_heading</field>
+            </fields>
+            <fields-in-item items_of="exad_business_hours_repeater">
+                <field type="Business Hours : Day" editor_type="LINE">exad_business_hours_day</field>
+                <field type="Business Hours : Time" editor_type="LINE">exad_business_hours_time</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-promo-box">
+            <conditions>
+                <condition key="widgetType">exad-promo-box</condition>
+            </conditions>
+            <fields>
+                <field type="Campaign : Heading" editor_type="AREA">exad_promo_box_content_heading</field>
+                <field type="Campaign : Details" editor_type="AREA">exad_promo_box_content_details</field>
+                <field type="Campaign : Count Down Expired Title" editor_type="LINE">exad_promo_box_countdown_expired_text</field>
+                <field type="Campaign : Button Text" editor_type="LINE">exad_promo_box_mailchimp_button_text</field>
+                <field type="Campaign : Loading Text" editor_type="LINE">exad_promo_box_mailchimp_loading_text</field>
+                <field type="Campaign : Success Text" editor_type="AREA">exad_promo_box_mailchimp_success_text</field>
+                <field type="Campaign : Error Text" editor_type="AREA">exad_promo_box_mailchimp_error_text</field>
+                <field type="Campaign : Promo Button Text" editor_type="LINE">exad_promo_box_button_text</field>
+                <field type="Campaign : Promo Button Link URL" editor_type="LINK" key_of="exad_promo_box_button_link">url</field>
+            </fields>
+        </widget>
+        <widget name="exad-chart">
+            <fields>
+                <field type="Chart : Label" editor_type="LINE">single_label</field>
+                <field type="Chart : Data" editor_type="LINE">single_datasets</field>
+                <field type="Chart : Single Background Colors" editor_type="LINE">single_bg_colors</field>
+                <field type="Chart : Single Border Colors" editor_type="LINE">single_border_colors</field>
+            </fields>
+             <fields-in-item items_of="exad_chart_labels">
+                <field type="Chart : Label Name" editor_type="LINE">exad_chart_label_name</field>
+            </fields-in-item>
+            <fields-in-item items_of="exad_chart_datasets">
+                <field type="Chart : Label" editor_type="LINE">label</field>
+                <field type="Chart : Data" editor_type="LINE">data</field>
+                <field type="Chart : Background Colors" editor_type="LINE">exad_chart_individual_bg_colors</field>
+                <field type="Chart : Border Colors" editor_type="LINE">border_colors</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-comparison-table">
+             <fields-in-item items_of="exad_table_heading_columns">
+                <field type="Comparison Table : Heading Name" editor_type="LINE">exad_table_heading_col</field>
+                <field type="Comparison Table : Currency Symbol" editor_type="LINE">exad_table_heading_currency_symbol</field>
+                <field type="Comparison Table : Price" editor_type="LINE">exad_table_heading_current_price</field>
+                <field type="Comparison Table : Regular Price" editor_type="LINE">exad_table_heading_regular_price</field>
+                <field type="Comparison Table : Duration" editor_type="LINE">exad_table_heading_duration</field>
+                <field type="Comparison Table : Ribbon Text" editor_type="LINE">exad_table_heading_ribbon_text</field>
+            </fields-in-item>
+            <fields-in-item items_of="exad_table_body_rows">
+                <field type="Comparison Table : Body Text" editor_type="AREA">exad_table_body_text</field>
+                <field type="Comparison Table : Tooltip Text" editor_type="AREA">exad_table_body_tooltip_text</field>
+                <field type="Comparison Table : Button Text" editor_type="LINE">exad_table_body_button_text</field>
+                <field type="Comparison Table : CSS ID" editor_type="LINE">exad_table_body_row_id_class</field>
+                <field type="Comparison Table : Button Link URL" editor_type="LINK" key_of="exad_table_body_button_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-content-switcher">
+            <conditions>
+                <condition key="widgetType">exad-content-switcher</condition>
+            </conditions>
+            <fields>
+                <field type="Content Switcher : Primary Heading" editor_type="LINE">exad_switcher_content_primary_heading</field>
+                <field type="Content Switcher : Secondary Heading" editor_type="LINE">exad_switcher_content_secondary_heading</field>
+                <field type="Content Switcher : Primary Content" editor_type="VISUAL">exad_switcher_content_primary_content</field>
+                <field type="Content Switcher : Secondary Content" editor_type="VISUAL">exad_switcher_content_secondary_content</field>
+            </fields>
+        </widget>
+        <widget name="exad-cookie-consent">
+            <conditions>
+                <condition key="widgetType">exad-cookie-consent</condition>
+            </conditions>
+            <fields>
+                <field type="Cookie Consent : Message" editor_type="AREA">exad_cookie_consent_message</field>
+                <field type="Cookie Consent : Cookie Button Text" editor_type="LINE">exad_cookie_consent_button_text</field>
+                <field type="Cookie Consent : Read More Button Text" editor_type="LINE">exad_cookie_consent_read_more_text</field>
+                <field type="Cookie Consent : Read More Button Link URL" editor_type="LINK" key_of="exad_cookie_consent_read_more_link">url</field>
+            </fields>
+        </widget>
+        <widget name="exad-counter">
+            <conditions>
+                <condition key="widgetType">exad-counter</condition>
+            </conditions>
+            <fields>
+                <field type="Counter : Title" editor_type="LINE">exad_counter_title</field>
+                <field type="Counter : Suffix" editor_type="LINE">exad_counter_suffix</field>
+            </fields>
+        </widget>
+        <widget name="exad-demo-previewer">
+            <fields>
+                <field type="Demo Previewer : Text for All Item" editor_type="LINE">exad_demo_previewer_all_item_text</field>
+                <field type="Demo Previewer : Text for All Dropdown" editor_type="LINE">exad_demo_previewer_dropdown_filter_text</field>
+                <field type="Demo Previewer : Search Placeholder" editor_type="LINE">exad_demo_previewer_search_placeholder_text</field>
+                <field type="Demo Previewer : Load More Button Text" editor_type="LINE">exad_demo_previewer_load_more_button_text</field>
+            </fields>
+            <fields-in-item items_of="exad_demo_previewer_items">
+                <field type="Demo Previewer : Title" editor_type="LINE">exad_demo_previewer_item_title</field>
+                <field type="Cookie Consent : Title Link URL" editor_type="LINK" key_of="exad_demo_previewer_item_title_url">url</field>
+                <field type="Demo Previewer : Description" editor_type="AREA">exad_demo_previewer_item_description</field>
+                <field type="Demo Previewer : Content Button Text" editor_type="LINE">exad_demo_previewer_item_content_button_text</field>
+                <field type="Cookie Consent : Content Button Link URL" editor_type="LINK" key_of="exad_demo_previewer_item_content_button_url">url</field>
+                <field type="Demo Previewer : Control Name" editor_type="LINE">exad_demo_previewer_control_name</field>
+                <field type="Demo Previewer : Dropdown Filter Name" editor_type="LINE">exad_demo_previewer_filter_name</field>
+                <field type="Demo Previewer : Tag List" editor_type="LINE">exad_demo_previewer_tag_list</field>
+                <field type="Demo Previewer : Label" editor_type="LINE">exad_demo_previewer_label_list</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-blob-maker">
+            <fields-in-item items_of="exad_blob_multi_shape_list">
+                <field type="Floating Animation : Shape Title" editor_type="LINE">exad_blob_multi_shape_title</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-iconbox">
+            <conditions>
+                <condition key="widgetType">exad-iconbox</condition>
+            </conditions>
+            <fields>
+                <field type="Icon Box : Label Text" editor_type="LINE">exad_icon_box_label</field>
+                <field type="Icon Box : Title" editor_type="LINE">exad_icon_box_title</field>
+                <field type="Icon Box : Description" editor_type="AREA">exad_icon_box_description</field>
+                <field type="Icon Box : Link URL" editor_type="LINK" key_of="exad_icon_box_url">url</field>
+            </fields>
+        </widget>
+         <widget name="exad-image-hotspot">
+            <fields-in-item items_of="exad_hotspots">
+                <field type="Image Hotspot : Tooltip Heading" editor_type="LINE">exad_tooltip_content_heading</field>
+                <field type="Image Hotspot : Tooltip Subheading" editor_type="AREA">exad_tooltip_content_subheading</field>
+                <field type="Image Hotspot : Tooltip Button Text" editor_type="LINE">exad_tooltip_content_button</field>
+                <field type="Image Hotspot : Tooltip Button URL" editor_type="LINK" key_of="exad_tooltip_content_button_url">url</field>
+                <field type="Image Hotspot : Text" editor_type="LINE">exad_hotspot_text</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-instagram-feed">
+            <conditions>
+                <condition key="widgetType">exad-instagram-feed</condition>
+            </conditions>
+            <fields>
+                <field type="Instagram Feed : Access Token" editor_type="LINE">exad_instagram_feed_access_token</field>
+                <field type="Instagram Feed : User Name" editor_type="LINE">exad_instagram_feed_user_name</field>
+            </fields>
+        </widget>
+        <widget name="exad-login-register">
+            <conditions>
+                <condition key="widgetType">exad-login-register</condition>
+            </conditions>
+            <fields>
+                <field type="Login Form : Heaging Text" editor_type="LINE">exad_login_heading_text</field>
+                <field type="Login Form : Button Text" editor_type="LINE">exad_login_register_button_text</field>
+                <field type="Login Form : Lost Password text" editor_type="LINE">exad_lost_password_text</field>
+                <field type="Login Form : Remember me text" editor_type="LINE">exad_remember_me_text</field>
+                <field type="Login Form : Username Label" editor_type="LINE">exad_login_register_username_laebl</field>
+                <field type="Login Form : Password Label" editor_type="LINE">exad_login_register_password_laebl</field>
+                <field type="Login Form : Username Placeholder" editor_type="LINE">exad_login_register_username_placeholder</field>
+                <field type="Login Form : Password Placeholder" editor_type="LINE">exad_login_register_password_placeholder</field>
+                 <field type="Login Form : Login Link URL" editor_type="LINK" key_of="exad_redirect_after_login_link">url</field>
+                 <field type="Login Form : LogOut Link URL" editor_type="LINK" key_of="exad_redirect_after_logout_link">url</field>
+            </fields>
+        </widget>    
+        <widget name="exad-lottie-animation">
+            <conditions>
+                <condition key="widgetType">exad-lottie-animation</condition>
+            </conditions>
+            <fields>
+                <field type="Lottie Animation : Caption Text" editor_type="LINE">exad_lottie_caption</field>
+                <field type="Lottie Animation : Custom Link URL" editor_type="LINK" key_of="exad_lottie_custom_link">url</field>
+                <field type="Lottie Animation : External Link URL" editor_type="LINK" key_of="exad_lottie_source_external_url">url</field>
+            </fields>
+        </widget>
+        <widget name="exad-mailchimp">
+            <conditions>
+                <condition key="widgetType">exad-mailchimp</condition>
+            </conditions>
+            <fields>
+                <field type="MailChimp : Email Label" editor_type="LINE">exad_mailchimp_email_label_text</field>
+                <field type="MailChimp : Email Placeholder" editor_type="LINE">exad_mailchimp_email_placeholder_text</field>
+                <field type="MailChimp : First Name Label" editor_type="LINE">exad_mailchimp_firstname_label_text</field>
+                <field type="MailChimp : First Name Placeholder" editor_type="LINE">exad_mailchimp_firstname_placeholder_text</field>
+                <field type="MailChimp : Last Name Label" editor_type="LINE">exad_mailchimp_last_name_label_text</field>
+                <field type="MailChimp : Last Name Placeholder" editor_type="LINE">exad_mailchimp_lastname_placeholder_text</field>
+                <field type="MailChimp : Button Text" editor_type="LINE">exad_mailchimp_button_text</field>
+                <field type="MailChimp : Loading Text" editor_type="LINE">exad_mailchimp_loading_text</field>
+                <field type="MailChimp : Success Text" editor_type="AREA">exad_mailchimp_success_text</field>
+                <field type="MailChimp : Error Text" editor_type="AREA">exad_mailchimp_error_text</field>
+            </fields>
+        </widget>
+        <widget name="exad-mega-menu">
+            <fields-in-item items_of="exad_mega_menu_items">
+                <field type="Mega Menu : Text" editor_type="LINE">exad_mega_menu_text</field>
+                <field type="Mega Menu : Label" editor_type="LINE">exad_mega_menu_label</field>
+                <field type="Mega Menu : Submenu Item Link" editor_type="LINK" key_of="exad_mega_submenu_item_link">url</field>
+                <field type="Mega Menu : Menu Item Link" editor_type="LINK" key_of="exad_mega_menu_item_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-news-ticker-pro">
+            <conditions>
+                <condition key="widgetType">exad-news-ticker-pro</condition>
+            </conditions>
+            <fields>
+                <field type="News Ticker PRO : Label Text" editor_type="LINE">exad_news_ticker_label</field>
+                <field type="News Ticker PRO : Include Text" editor_type="LINE">exad_news_ticker_include_specific_items_by_ids</field>
+                <field type="News Ticker PRO : Exclude Text" editor_type="LINE">exad_news_ticker_exclude_specific_items_by_ids</field>
+            </fields>
+        </widget>
+        <widget name="exad-offcanvas">
+            <conditions>
+                <condition key="widgetType">exad-offcanvas</condition>
+            </conditions>
+            <fields>
+                <field type="Off Canvas : Button Text" editor_type="LINE">exad_offcanvas_button_text</field>
+                <field type="Off Canvas : Custom Class" editor_type="LINE">exad_offcanvas_custom_class</field>
+                <field type="Off Canvas : Content" editor_type="VISUAL">exad_offcanvas_content</field>
+            </fields>
+        </widget>
+        <widget name="exad-page-title">
+            <conditions>
+                <condition key="widgetType">exad-page-title</condition>
+            </conditions>
+            <fields>
+                <field type="Page Title : Before Title" editor_type="LINE">before_title</field>
+                <field type="Page Title : After Title" editor_type="LINE">after_title</field>
+                <field type="Page Title : Link URL" editor_type="LINK" key_of="custom_link">url</field>
+            </fields>
+        </widget>
+        <widget name="exad-post-carousel">
+            <conditions>
+                <condition key="widgetType">exad-post-carousel</condition>
+            </conditions>
+            <fields>
+                <field type="Post Carousel : Button Text" editor_type="LINE">exad_post_carousel_read_more_btn_text</field>
+                <field type="Post Carousel : Author Name Tag" editor_type="LINE">exad_post_carousel_user_name_tag</field>
+                <field type="Post Carousel : Date Tag" editor_type="LINE">exad_post_carousel_date_tag</field>
+            </fields>
+        </widget>
+        <widget name="exad-post-navigation">
+            <conditions>
+                <condition key="widgetType">exad-post-navigation</condition>
+            </conditions>
+            <fields>
+                <field type="Post Navigation : Previous Label" editor_type="LINE">exad_post_nav_prev_label</field>
+                <field type="Post Navigation : Next Label" editor_type="LINE">exad_post_nav_next_label</field>
+            </fields>
+        </widget> 
+        <widget name="exad-post-slider">
+            <conditions>
+                <condition key="widgetType">exad-post-slider</condition>
+            </conditions>
+            <fields>
+                <field type="Post Slider : Button Text" editor_type="LINE">exad_post_slider_read_more_btn_text</field>
+            </fields>
+        </widget> 
+        <widget name="product-add-to-cart">
+            <conditions>
+                <condition key="widgetType">product-add-to-cart</condition>
+            </conditions>
+            <fields>
+                <field type="Add to Cart : Button Text" editor_type="LINE">exad_add_to_cart_button_text</field>
+                <field type="Add to Cart : Show Text Before" editor_type="AREA">product_add_to_cart_before</field>
+                <field type="Add to Cart : Show Text After Cart" editor_type="AREA">product_add_to_cart_after</field>
+            </fields>
+        </widget>  
+        <widget name="exad-product-breadcrumb">
+            <conditions>
+                <condition key="widgetType">exad-product-breadcrumb</condition>
+            </conditions>
+            <fields>
+                <field type="Product Breadcrumb : Show Text Before" editor_type="AREA">exad_product_breadcrumb_before</field>
+                <field type="Product Breadcrumb : Show Text After" editor_type="AREA">exad_product_breadcrumb_after</field>
+            </fields>
+        </widget>
+        <widget name="exad-product-cross-sell">
+            <conditions>
+                <condition key="widgetType">exad-product-cross-sell</condition>
+            </conditions>
+            <fields>
+                <field type="Product Cross Sell : You may also like" editor_type="LINE">exad_product_cross_sell_section_title_text</field>
+                <field type="Product Cross Sell : Before Cross Sell" editor_type="AREA">exad_product_cross_sell_before</field>
+                <field type="Product Cross Sell : After Cross Sell" editor_type="AREA">exad_product_cross_sell_after</field>
+            </fields>
+        </widget>  
+        <widget name="exad-product-meta">
+            <conditions>
+                <condition key="widgetType">exad-product-meta</condition>
+            </conditions>
+            <fields>
+                <field type="Product Meta : Category Singular" editor_type="LINE">exad_product_meta_category_caption_single</field>
+                <field type="Product Meta : Category Plural" editor_type="LINE">exad_product_meta_category_caption_plural</field>
+                <field type="Product Meta : Tag Singular" editor_type="LINE">tag_caption_single</field>
+                <field type="Product Meta : Tag Plural" editor_type="LINE">exad_product_meta_tag_caption_plural</field>
+                <field type="Product Meta : SKU" editor_type="LINE">exad_product_meta_sku_caption</field>
+                <field type="Product Meta : SKU Missing" editor_type="LINE">exad_product_meta_sku_missing_caption</field>
+                <field type="Product Meta : Separator" editor_type="LINE">exad_product_meta_separator</field>
+                <field type="Product Meta : Show Text Before Meta" editor_type="AREA">exad_product_meta_before</field>
+                <field type="Product Meta : Show Text After Meta" editor_type="AREA">exad_product_meta_after</field>
+            </fields>
+        </widget>   
+        <widget name="exad-product-navigation">
+            <conditions>
+                <condition key="widgetType">exad-product-navigation</condition>
+            </conditions>
+            <fields>
+                <field type="Product Navigation : Prev Text" editor_type="LINE">exad_product_navigation_prev_text</field>
+                <field type="Product Navigation : Next Text" editor_type="LINE">exad_product_navigation_next_text</field>
+                <field type="Product Navigation : Show Text Before Nav" editor_type="AREA">exad_product_nav_before</field>
+                <field type="Product Navigation : Show Text After Nav" editor_type="AREA">exad_product_nav_after</field>
+            </fields>
+        </widget>
+        <widget name="exad-product-price">
+            <conditions>
+                <condition key="widgetType">exad-product-price</condition>
+            </conditions>
+            <fields>
+                <field type="Product Price : Show Text Before Price" editor_type="AREA">exad_product_price_before</field>
+                <field type="Product Price : Show Text After Price" editor_type="AREA">exad_product_price_after</field>
+            </fields>
+        </widget>
+        <widget name="exad-product-qr-code">
+            <conditions>
+                <condition key="widgetType">exad-product-qr-code</condition>
+            </conditions>
+            <fields>
+                <field type="QR Code : Show Text Before QR Code" editor_type="AREA">exad_product_qr_code_before</field>
+                <field type="QR Code : Show Text After QR Code" editor_type="AREA">exad_product_qr_code_after</field>
+            </fields>
+        </widget> 
+        <widget name="exad-product-related">
+            <conditions>
+                <condition key="widgetType">exad-product-related</condition>
+            </conditions>
+            <fields>
+                <field type="Product Related : Related Products Title" editor_type="LINE">exad_product_related_title_text</field>
+            </fields>
+        </widget>
+        <widget name="exad-product-short-description">
+            <conditions>
+                <condition key="widgetType">exad-product-short-description</condition>
+            </conditions>
+            <fields>
+                <field type="Product Short Description : Show Text Before Description" editor_type="AREA">exad_product_before_description</field>
+                <field type="Product Short Description : Show Text After Description" editor_type="AREA">exad_product_after_description</field>
+            </fields>
+        </widget>     
+        <widget name="exad-product-stock">
+            <conditions>
+                <condition key="widgetType">exad-product-stock</condition>
+            </conditions>
+            <fields>
+                <field type="Product Stock : Show Text Before Stock" editor_type="AREA">exad_product_stock_before</field>
+                <field type="Product Stock : Show Text After Stock" editor_type="AREA">exad_product_stock_after</field>
+            </fields>
+        </widget>
+        <widget name="exad-product-tabs">
+            <conditions>
+                <condition key="widgetType">exad-product-tabs</condition>
+            </conditions>
+            <fields>
+                <field type="Product Tabs : Show Text Before Tabs" editor_type="AREA">exad_product_tabs_info_before</field>
+                <field type="Product Tabs : Show Text After Tabs" editor_type="AREA">exad_product_tabs_info_after</field>
+            </fields>
+        </widget>
+        <widget name="exad-product-image">
+            <conditions>
+                <condition key="widgetType">exad-product-image</condition>
+            </conditions>
+            <fields>
+                <field type="Product Image : Before Gallery" editor_type="AREA">exad_product_image_before</field>
+                <field type="Product Image : After Gallery" editor_type="AREA">exad_product_image_after</field>
+            </fields>
+        </widget>
+        <widget name="exad-product-title">
+            <conditions>
+                <condition key="widgetType">exad-product-title</condition>
+            </conditions>
+            <fields>
+                <field type="Product Title : Before Title" editor_type="AREA">before_title</field>
+                <field type="Product Title : After Title" editor_type="AREA">after_title</field>
+            </fields>
+        </widget>
+        <widget name="exad-product-upsell">
+            <conditions>
+                <condition key="widgetType">exad-product-upsell</condition>
+            </conditions>
+            <fields>
+                <field type="Product Upsell : You may also like Title" editor_type="LINE">exad_product_upsell_section_title_text</field>
+            </fields>
+        </widget>  
+        <widget name="exad-search-form">
+            <conditions>
+                <condition key="widgetType">exad-search-form</condition>
+            </conditions>
+            <fields>
+                <field type="Search Form : Placeholder" editor_type="LINE">placeholder</field>
+                <field type="Search Form : Button Text" editor_type="LINE">button_text</field>
+            </fields>
+        </widget>
+        <widget name="exad-site-tagline">
+            <conditions>
+                <condition key="widgetType">exad-site-tagline</condition>
+            </conditions>
+            <fields>
+                <field type="Site Tagline : Before Title" editor_type="LINE">before_tagline</field>
+                <field type="Site Tagline : After Title" editor_type="LINE">after_tagline</field>
+                <field type="Site Tagline : Link URL" editor_type="LINK" key_of="custom_link">url</field>
+            </fields>
+        </widget>
+        <widget name="exad-site-title">
+            <conditions>
+                <condition key="widgetType">exad-site-title</condition>
+            </conditions>
+            <fields>
+                <field type="Site Title : Before Title" editor_type="LINE">before_title</field>
+                <field type="Site Title : After Title" editor_type="LINE">after_title</field>
+                <field type="Site Title : Link URL" editor_type="LINK" key_of="custom_link">url</field>
+            </fields>
+        </widget>
+        <widget name="exad-exclusive-slider">
+            <fields-in-item items_of="exad_slides">
+                <field type="Slider : Title" editor_type="LINE">exad_slider_title</field>
+                <field type="Slider : Details" editor_type="AREA">exad_slider_details</field>
+                <field type="Slider : Button Text" editor_type="LINE">exad_slider_button_text</field>
+                <field type="Slider : Button Link URL" editor_type="LINK" key_of="exad_slider_button_url">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-social-share">
+            <conditions>
+                <condition key="widgetType">exad-social-share</condition>
+            </conditions>
+            <fields>
+                <field type="Social Share : Facebook Label" editor_type="LINE">social_share_facebook_label</field>
+                <field type="Social Share : Twitter Label" editor_type="LINE">social_share_twitter_label</field>
+                <field type="Social Share : Pinterest Label" editor_type="LINE">social_share_pinterest_label</field>
+                <field type="Social Share : Linkedin Label" editor_type="LINE">social_share_linkedin_label</field>
+                <field type="Social Share : Reddit Label" editor_type="LINE">social_share_reddit_label</field>
+            </fields>
+        </widget>
+        <widget name="exad-source-code">
+            <conditions>
+                <condition key="widgetType">exad-source-code</condition>
+            </conditions>
+            <fields>
+                <field type="Source Code : Copy Button Text" editor_type="LINE">exad_source_code_copy_btn_text</field>
+                <field type="Source Code : After Copied Button" editor_type="LINE">exad_source_code_after_copied_btn_text</field>
+            </fields>
+        </widget>
+        <widget name="exad-table">
+            <fields>
+                <field type="Table : Search Text" editor_type="LINE">exad_table_searching_text</field>
+                <field type="Table : Placeholder Text for Search" editor_type="LINE">exad_table_searching_placeholder_text</field>
+                <field type="Table : Text For Not Found" editor_type="LINE">exad_table_text_for_no_data</field>
+                <field type="Table : Text For Previous" editor_type="LINE">exad_table_text_for_previous</field>
+                <field type="Table : Text For Next" editor_type="LINE">exad_table_text_for_next</field>
+            </fields>
+            <fields-in-item items_of="exad_table_heading_columns">
+                <field type="Table Head : Heading Name" editor_type="LINE">exad_table_heading_col</field>
+            </fields-in-item> 
+            <fields-in-item items_of="exad_table_body_rows">
+                <field type="Table Body : Column Text" editor_type="AREA">exad_table_body_row_content</field>
+                <field type="Table Body : CSS ID" editor_type="LINE">exad_table_body_row_id_class</field>
+                <field type="Table Body : Link URL" editor_type="LINK" key_of="exad_table_body_row_title_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-team-carousel">
+            <fields-in-item items_of="exad_team_carousel_repeater">
+                <field type="Team Carousel : Name" editor_type="LINE">exad_team_carousel_name</field>
+                <field type="Team Carousel : Designation" editor_type="LINE">exad_team_carousel_designation</field>
+                <field type="Team Carousel : Description" editor_type="AREA">exad_team_carousel_description</field>
+                <field type="Team Carousel : Button Text" editor_type="LINE">exad_team_carousel_cta_btn_text</field>
+                <field type="Team Carousel : Button Link URL" editor_type="LINK" key_of="exad_team_carousel_cta_btn_link">url</field>
+                <field type="Team Carousel : Facebook Link URL" editor_type="LINK" key_of="exad_team_carousel_facebook_link">url</field>
+                <field type="Team Carousel : Twitter Link URL" editor_type="LINK" key_of="exad_team_carousel_twitter_link">url</field>
+                <field type="Team Carousel : Instagram Link URL" editor_type="LINK" key_of="exad_team_carousel_instagram_link">url</field>
+                <field type="Team Carousel : Linkedin Link URL" editor_type="LINK" key_of="exad_team_carousel_linkedin_link">url</field>
+                <field type="Team Carousel : Dribbble Link URL" editor_type="LINK" key_of="exad_team_carousel_dribbble_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-testimonial-carousel">
+            <fields-in-item items_of="testimonial_carousel_repeater">
+                <field type="Testimonial Carousel : Testimonial" editor_type="AREA">exad_testimonial_carousel_description</field>
+                <field type="Testimonial Carousel : Name" editor_type="LINE">exad_testimonial_carousel_name</field>
+                <field type="Testimonial Carousel : Designation" editor_type="LINE">exad_testimonial_carousel_designation</field>
+            </fields-in-item>
+        </widget>
+        <widget name="exad-thank-you-order">
+            <conditions>
+                <condition key="widgetType">exad-thank-you-order</condition>
+            </conditions>
+            <fields>
+                <field type="Thank You Order : Thank you message" editor_type="AREA">order_thankyou_message</field>
+                <field type="Thank You Order : Order Heading" editor_type="LINE">thankyou_order_table_order_heading</field>
+                <field type="Thank You Order : Date Heading" editor_type="LINE">thankyou_order_table_date_heading</field>
+                <field type="Thank You Order : Email Heading" editor_type="LINE">thankyou_order_table_email_heading</field>
+                <field type="Thank You Order : Total Heading" editor_type="LINE">thankyou_order_table_total_heading</field>
+                <field type="Thank You Order : Payment Heading" editor_type="LINE">thankyou_order_table_payment_method_heading</field>
+            </fields>
+        </widget>
+        <widget name="exad-thank-you-order-details">
+            <conditions>
+                <condition key="widgetType">exad-thank-you-order-details</condition>
+            </conditions>
+            <fields>
+                <field type="Thank You Order Details : Order Details" editor_type="LINE">exad_thank_you_order_details_section_title_text</field>
+                <field type="Thank You Order Details : Table Header" editor_type="LINE">exad_thank_you_order_details_table_header_title_text</field>
+                <field type="Thank You Order Details : Table Heading" editor_type="LINE">exad_thank_you_order_details_table_header_title_2_text</field>
+            </fields>
+        </widget>
+        <widget name="exad-woo-add-to-cart">
+            <conditions>
+                <condition key="widgetType">exad-woo-add-to-cart</condition>
+            </conditions>
+            <fields>
+                <field type="Woo Mini Cart : Bag Heading" editor_type="LINE">exad_woo_mini_cart_bag_title</field>
+            </fields>
+        </widget>
+        <widget name="exad-woo-category">
+            <conditions>
+                <condition key="widgetType">exad-woo-category</condition>
+            </conditions>
+            <fields>
+                <field type="Woo category : Subtitle Text" editor_type="LINE">exad_woo_product_cat_subtitle</field>
+            </fields>
+        </widget>
+        <widget name="exad-woo-my-account">
+            <conditions>
+                <condition key="widgetType">exad-woo-my-account</condition>
+            </conditions>
+            <fields>
+                <field type="Woo My Account : Dashboard Text" editor_type="LINE">exad_woo_my_account_navigation_show_dashboard_text</field>
+                <field type="Woo My Account : Orders Text" editor_type="LINE">exad_woo_my_account_navigation_show_orders_text</field>
+                <field type="Woo My Account : Downloads Text" editor_type="LINE">exad_woo_my_account_navigation_show_downloads_text</field>
+                <field type="Woo My Account : Addresses Text" editor_type="LINE">exad_woo_my_account_navigation_show_addresses_text</field>
+                <field type="Woo My Account : Account Details Text" editor_type="LINE">exad_woo_my_account_navigation_show_account_details_text</field>
+                <field type="Woo My Account : Logout Link Text" editor_type="LINE">exad_woo_my_account_navigation_show_logout_link_text</field>
+            </fields>
+        </widget>
+        <widget name="exad-woo-products">
+            <conditions>
+                <condition key="widgetType">exad-woo-products</condition>
+            </conditions>
+            <fields>
+                <field type="Woo Products : Product Include" editor_type="LINE">product_in_ids</field>
+                <field type="Woo Products : Product Exclude" editor_type="LINE">product_not_in_ids</field>
+                <field type="Woo Products : Featured Tag" editor_type="LINE">exad_woo_product_featured_tag_text</field>
+                <field type="Woo Products : Load More Button text" editor_type="LINE">exad_woo_product_enable_load_more_btn_text</field>
+                <field type="Woo Products : Prev Text" editor_type="LINE">exad_woo_product_pagination_prev_text</field>
+                <field type="Woo Products : Next Text" editor_type="LINE">exad_woo_product_pagination_next_text</field>
+                <field type="Woo Products : Quick view" editor_type="LINE">exad_woo_product_quick_view_text</field>
+            </fields>
+        </widget>
+        <widget name="exad-woo-product-carousel">
+            <conditions>
+                <condition key="widgetType">exad-woo-product-carousel</condition>
+            </conditions>
+            <fields>
+                <field type="Woo Product Carousel : Product Include" editor_type="LINE">product_in_ids</field>
+                <field type="Woo Product Carousel : Product Exclude" editor_type="LINE">product_not_in_ids</field>
+                <field type="Woo Product Carousel : Featured Tag" editor_type="LINE">exad_woo_product_carousel_featured_tag_text</field>
+                <field type="Woo Product Carousel : Load More Button text" editor_type="LINE">exad_woo_product_enable_load_more_btn_text</field>
+                <field type="Woo Product Carousel : Prev Text" editor_type="LINE">exad_woo_product_pagination_prev_text</field>
+                <field type="Woo Product Carousel : Next Text" editor_type="LINE">exad_woo_product_pagination_next_text</field>
+                <field type="Woo Product Carousel : Quick view" editor_type="LINE">exad_woo_product_quick_view_text</field>
+            </fields>
+        </widget>
+    </elementor-widgets>
+</wpml-config>

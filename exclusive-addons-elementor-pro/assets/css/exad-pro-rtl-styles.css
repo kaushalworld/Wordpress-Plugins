@@ -1,0 +1,16 @@
+.exad-instagram-row-wrapper .exad-instagram-slider-type.slick-dotted ul.slick-dots li:not(:last-child) {
+    margin: 0px 0px 0px 5px;
+}
+
+body.rtl .exad-alert .exad-alert-element .exad-alert-element-content {
+	text-align: right;
+}
+
+body.rtl .exad-alert .exad-alert-element .exad-alert-element-dismiss-icon {
+	
+}
+
+ul.exad-breadcrumb-items li.exad-breadcrumb-item i.exad-arrow {
+    left: -6px;
+    right: inherit;
+}

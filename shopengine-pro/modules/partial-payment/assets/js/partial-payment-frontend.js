@@ -1,0 +1,1 @@
+jQuery((function(n){n(".shopengine-partial-payment-fields").length&&n(".single_variation_wrap").on("show_variation",(function(i,t){let a={variation_id:t.variation_id,_wpnonce:shopEngineApiSettings.rest_nonce},e=shopEngineApiSettings.resturl+"shopengine-builder/v1/partial-payment/partial_data";n.post(e,a,(function(i){n("#partial_payment_deposit_amount").html(i)}))}))}));

@@ -1,0 +1,243 @@
+@import "../../lae-lib";
+
+/* ---------------------------------- Image Slider ---------------------------------- */
+
+.lae-image-slider {
+  clear: both;
+  position: relative;
+  padding: 0 0 40px 0;
+
+  .lae-slide {
+    position: relative;
+    background: rgb(0, 0, 0) !important;
+
+    img {
+      transition: all .4s ease-in-out 0s;
+      opacity: 0.7;
+    }
+
+    &:hover {
+      img {
+        opacity: 0.5;
+      }
+    }
+
+    .lae-caption {
+      position: absolute;
+      max-width: 700px;
+
+      .lae-heading {
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: bold;
+        margin: 0;
+        color: #fff;
+
+        a {
+          color: #fff;
+
+          &:hover {
+            border-bottom: 2px solid #fff;
+          }
+        }
+      }
+
+      .lae-subheading {
+        color: #b1b3b2;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 12px;
+        font-weight: 400;
+      }
+
+      .lae-button {
+        margin-top: 50px;
+        color: #fefefe;
+      }
+
+      @include respond-to-max(600) {
+        .lae-subheading {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        .lae-heading {
+          font-size: 22px;
+          line-height: 30px;
+        }
+        .lae-button {
+          margin-top: 30px;
+          padding: 12px 25px;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  .lae-flex-direction-nav a, .lae-flex-direction-nav a:hover {
+    color: #ddd;
+    font-size: 32px;
+    width: 36px;
+    height: 36px;
+    margin: -18px 0 0;
+    transition: all .4s ease-in-out 0s;
+
+    &.lae-flex-prev {
+      left: 20px;
+    }
+
+    &.lae-flex-next {
+      right: 20px;
+    }
+  }
+
+  .lae-flex-direction-nav a:hover {
+    color: #efefef;
+  }
+
+  button {
+    &.slick-prev {
+      left: 20px;
+    }
+
+    &.slick-next {
+      right: 20px;
+    }
+  }
+
+  button.slick-prev, button.slick-next, button.slick-prev:hover, button.slick-next:hover {
+    font-size: 32px;
+    width: 36px;
+    height: 36px;
+    margin: -18px 0 0;
+    z-index: 10;
+  }
+
+  button.slick-prev, button.slick-next {
+    &:before {
+      font-size: 32px;
+      color: #ddd !important;
+    }
+
+    &:hover:before {
+      color: #fff !important;
+    }
+  }
+}
+
+.lae-image-slider.lae-caption-style1 {
+
+  .lae-caption {
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+    transform: translateY(-50%);
+  }
+}
+
+.lae-image-slider.lae-caption-style2 {
+
+  .lae-caption {
+    bottom: 50px;
+    left: 50px;
+    text-align: left;
+    margin: 0;
+    padding: 0 20px;
+
+    .lae-button {
+      display: none;
+    }
+
+    .lae-heading {
+      text-align: left;
+    }
+
+    @include respond-to-max(1024) {
+      left: 20px;
+      bottom: 30px;
+      .lae-subheading {
+        margin-bottom: 10px;
+      }
+    }
+    @include respond-to-max(600) {
+      left: 0;
+      bottom: 20px;
+      .lae-subheading {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+/* Nivo Slider Caption */
+
+.lae-image-slider {
+  .nivo-caption .lae-heading {
+    color: #fff;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: bold;
+    margin: 0;
+
+    a {
+      color: #fff;
+
+      &:hover {
+        border-bottom: 2px solid #fff;
+      }
+    }
+  }
+
+  .nivo-caption .lae-subheading {
+    margin-bottom: 10px;
+    color: #b1b3b2;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @include respond-to-max(600) {
+    .nivo-caption .lae-subheading {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .nivo-caption .lae-heading {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+}
+
+.lae-image-slider.lae-caption-style1 {
+  .nivo-caption {
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: initial;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 25px 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    transform: translateY(-50%);
+  }
+}
+
+.lae-image-slider.lae-caption-style2 {
+  .nivo-caption {
+    padding: 25px 50px;
+
+    .lae-heading {
+      text-align: left;
+    }
+
+    @include respond-to-max(600) {
+      padding: 10px 30px;
+    }
+  }
+}

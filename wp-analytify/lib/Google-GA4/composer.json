@@ -1,0 +1,7 @@
+{
+    "require": {
+        "google/apiclient": "2.12.1",
+        "google/analytics-admin": "^0.10.0",
+        "google/analytics-data": "^0.9.4"
+    }
+}

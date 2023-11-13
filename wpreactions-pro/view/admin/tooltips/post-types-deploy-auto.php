@@ -1,0 +1,1 @@
+<p>This option automatically deploys and activates your emoji reactions on the post types checked below. No need to do anything else.</p><p><strong>Note: </strong>Auto-deploy overrides manual when duplicate boxes are checked.</p>

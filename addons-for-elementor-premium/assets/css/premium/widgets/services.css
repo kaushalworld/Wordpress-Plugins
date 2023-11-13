@@ -1,0 +1,66 @@
+/* Services Widget Premium Features */
+/* Style 4 */
+.lae-services-style4 .lae-service .lae-image-wrapper img, .lae-services-style4 .lae-service .lae-icon-wrapper i {
+  display: block;
+  margin-bottom: 20px;
+  text-align: left; }
+  .rtl .lae-services-style4 .lae-service .lae-image-wrapper img, .rtl .lae-services-style4 .lae-service .lae-icon-wrapper i {
+    text-align: right; }
+.lae-services-style4 .lae-service .lae-icon-wrapper i {
+  font-size: 36px;
+  line-height: 1;
+  color: #888; }
+  .lae-dark-bg .lae-services-style4 .lae-service .lae-icon-wrapper i:hover {
+    color: #c5c5c5; }
+.lae-services-style4 .lae-service .lae-service-text .lae-title {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  clear: none;
+  margin-top: 0;
+  margin-bottom: 10px; }
+
+/* Style 5 */
+.lae-services-style5 .lae-service .lae-icon-wrapper i {
+  display: block;
+  text-align: center;
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: #999;
+  -webkit-transition: color .4s ease-in-out 0s;
+  transition: color .4s ease-in-out 0s; }
+  .lae-dark-bg .lae-services-style5 .lae-service .lae-icon-wrapper i:hover {
+    color: #c5c5c5; }
+.lae-services-style5 .lae-service .lae-image-wrapper img {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto 25px;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s; }
+.lae-services-style5 .lae-service .lae-service-text {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto; }
+  .lae-services-style5 .lae-service .lae-service-text .lae-title {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    clear: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px; }
+.lae-services-style5 .lae-service:hover .lae-image-wrapper img {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9); }
+
+/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,9 @@
+{
+  "url": "https://m19dxw5x0q-dsn.algolia.net/1/indexes/fontawesome_com-5.13.1/query",
+  "url_params": {
+    "x-algolia-agent": "Algolia%20for%20JavaScript%20(3.35.1)%3B%20Browser",
+    "x-algolia-application-id": "M19DXW5X0Q",
+    "x-algolia-api-key": "c79b2e61519372a99fa5890db070064c"
+  },
+  "query_params": "{icon_name}&hitsPerPage=50&page=0&facets=[membership.free\"]&facetFilters=[[\"type:icon\"],[\"membership.free:solid\",\"membership.free:regular\",\"membership.free:brands\"]]"
+}

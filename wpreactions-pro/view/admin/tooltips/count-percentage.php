@@ -1,0 +1,1 @@
+<p>You can change your badge counts to read as percentages. This will display % instead of numeric user counts. The percentages are still determined by individual clicks and you can still adjust the user counts manually to set your own reaction counts.</p>

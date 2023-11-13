@@ -1,0 +1,1 @@
+<p>You can choose from 2000 Font Awesome icons, just type in a few letters of the name and you will get a selection. Use the dropdowns for color options and control your size and position.</p>

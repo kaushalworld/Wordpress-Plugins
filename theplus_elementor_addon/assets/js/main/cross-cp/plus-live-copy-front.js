@@ -1,0 +1,1 @@
+(function(){xdLocalStorage.init({iframeUrl:"https://posimyththemes.com/tpcp/",initCallback:function(){}}),window.final_copy_fun=function(a){xdLocalStorage.setItem("theplus-c-p-element",JSON.stringify(a),function(){console.log("copied")})}})();

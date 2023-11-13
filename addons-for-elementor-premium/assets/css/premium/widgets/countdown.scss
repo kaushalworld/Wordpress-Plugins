@@ -1,0 +1,89 @@
+@import "../../lae-lib";
+
+/* ---------------------------------- Countdown Widget ---------------------------------- */
+
+.lae-countdown-wrap {
+  display: inline-block;
+  width: 100%;
+
+  &.lae-aligncenter {
+    text-align: center;
+  }
+
+  &.lae-alignleft {
+    text-align: left;
+  }
+
+  &.lae-alignright {
+    text-align: right;
+  }
+
+  .lae-countdown-label {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+    color: #333;
+
+    .lae-dark-bg & {
+      color: #e5e5e5;
+    }
+  }
+
+  .lae-countdown {
+    display: inline-block;
+
+    ul {
+      list-style: none;
+      display: inline-block;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 700;
+        margin-left: 20px;
+        position: relative;
+
+        .lae-dark-bg & {
+          color: #909090;
+        }
+
+        span {
+          display: table;
+          padding: 12px;
+          border-radius: 5px;
+          background: #383b3f;
+          color: #ebebeb;
+          font-size: 18px;
+          line-height: 18px;
+
+          .lae-dark-bg & {
+            background-color: rgba(125, 125, 125, 0.3);
+          }
+        }
+
+        &:before {
+          content: ':';
+          position: absolute;
+          left: -10px;
+          top: 18px;
+          font-size: 18px;
+          line-height: 18px;
+        }
+
+        &:first-child:before {
+          display: none;
+        }
+      }
+    }
+  }
+}
