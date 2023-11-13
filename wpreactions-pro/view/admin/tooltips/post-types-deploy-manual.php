@@ -1,1 +1,0 @@
-<p>Deploy your emoji reactions to these post types without activating them. To activate, you must go to each page and manually turn them inside of your meta panel. In this case, you will not see emojis on pages until turned on at the post level.</p>

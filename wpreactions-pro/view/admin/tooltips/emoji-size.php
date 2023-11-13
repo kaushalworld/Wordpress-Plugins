@@ -1,1 +1,0 @@
-<p>This option allows for you to adjust both static and animated emoji sizes. Use the slide bar adjustments to adjust the size and position your emojis. Click the reset to go back to default settings.</p>

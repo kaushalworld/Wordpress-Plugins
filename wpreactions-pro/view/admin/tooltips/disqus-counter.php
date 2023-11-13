@@ -1,1 +1,0 @@
-<p>These are the counts under each emoji. You can disable these counts. Or, change from numeric to percentages. Customize your font easily.</p>

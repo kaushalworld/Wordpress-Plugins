@@ -1,2 +1,0 @@
-<p>By default each site user can click to react on a post only once. You can disable this limitation to allow users to react multiple times.</p>
-<p><strong>Note:</strong> allowing users to react multiple times can results in unexpected statistics.</p>

@@ -1,1 +1,0 @@
-<p>Toggle “ON” to activate buttons. Toggle “OFF” will not be shown. In this layout, label text will be shown only on the first 2 buttons. The rest will be shown as icons. Keep this in mind when customizing your label. Custom text will override the default label. Drag and drop to create the order of your buttons.</p>

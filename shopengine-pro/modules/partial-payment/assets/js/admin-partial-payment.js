@@ -1,1 +1,0 @@
-jQuery((function(e){e(document).ready((function(){e("input#shopengine_product_pp_status").change((function(){e(this).prop("checked")?e(".shopengine-partial-payent-tab-content p.se-hidden-field").removeClass("se-hidden"):e(".shopengine-partial-payent-tab-content p.se-hidden-field").addClass("se-hidden")}))}))}));

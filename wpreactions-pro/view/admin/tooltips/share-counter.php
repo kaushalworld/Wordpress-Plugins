@@ -1,1 +1,0 @@
-<p>When enabled you will see the total shares to the left of the social buttons. When disabled, the buttons will show only.<u>To set up your fake counts</u> go to the post or page and set up your counts while editing.Please note that fake counts will not go towards actual data counts. </p>

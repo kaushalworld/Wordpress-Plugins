@@ -1,1 +1,0 @@
-<p>When a user clicks on an emoji reaction it will register here and in your <a href="{ADMIN_URL}/?page=wpra-analytics" target="_blank">analytics dashboard</a> in greater detail for you to see how your audience is liking your content.</p><p>Please note that we do not combine fake counts and actual user clicks in statistical data.</p>

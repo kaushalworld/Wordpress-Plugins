@@ -1,1 +1,0 @@
-jQuery((function(e){e(document).ready((function(){e("input#shopengine_product_chart_status").change((function(){e(this).prop("checked")?e(".shopengine_product_size_charts-content p.se-hidden-field").removeClass("se-hidden"):e(".shopengine_product_size_charts-content p.se-hidden-field").addClass("se-hidden")}))}))}));

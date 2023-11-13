@@ -1,1 +1,0 @@
-<p>When social buttons are disabled, you are also disabling social sharing so your users cannot share your content.</p>

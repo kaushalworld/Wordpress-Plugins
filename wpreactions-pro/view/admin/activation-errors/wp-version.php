@@ -1,2 +1,0 @@
-<p style="color: red;">WP Reactions Pro requires WordPress version 4.7 or above. Please upgrade your WordPress and try again.</p>
-<p><a href="<?php echo admin_url('plugins.php'); ?>">Back to Plugins</a></p>

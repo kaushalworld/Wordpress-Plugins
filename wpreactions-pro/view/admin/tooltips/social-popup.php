@@ -1,1 +1,0 @@
-<p><strong>Social Popup</strong><br> This popup event will occur only when social sharing is enabled.</p><p>When social sharing is disabled, there is no requirement to choose your social platforms or to add button #2 text. These features will be disabled as well if Disable Social Sharing is checked.</p><p>Try this feature live to see how it works in the preview to your right.</p>

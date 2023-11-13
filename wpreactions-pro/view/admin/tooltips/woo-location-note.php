@@ -1,1 +1,0 @@
-<p>We have 5 options to hook your emojis into your product pages. These are standard WooCommerce locations as shown below.</p><p> <strong>Note:</strong> Please consider your product page design may vary depend on your theme. We have used most common interface used by themes to show locations.</p>

@@ -1,1 +1,0 @@
-<p>Increase font sizes and colors to accommodate your style.</p>

@@ -1,1 +1,0 @@
-<p><strong>Reset to Factory Settings</strong><br> This will reset your reactions to default settings on all pages and posts.</p><p>This will also reset all of your user reaction counts to “0” on all pages and post that are globally activated.</p>

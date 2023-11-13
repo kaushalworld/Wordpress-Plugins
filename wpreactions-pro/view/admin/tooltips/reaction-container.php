@@ -1,1 +1,0 @@
-<p>You can style your reaction container</p>

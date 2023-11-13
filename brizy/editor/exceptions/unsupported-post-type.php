@@ -1,3 +1,0 @@
-<?php
-
-class Brizy_Editor_Exceptions_UnsupportedPostType extends Brizy_Editor_Exceptions_NotFound {}

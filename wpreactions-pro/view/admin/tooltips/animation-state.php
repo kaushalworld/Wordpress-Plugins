@@ -1,1 +1,0 @@
-<p>Option 1 - Animated always active<br>Option 2 - Animation starts when the user hovers and ends when the user is not on hover.<br>Option 3 - Animation starts on hover and stays active for a user session.<br>Option 4 - Static emojis are still always still. No animation. High quality SVG's</p>

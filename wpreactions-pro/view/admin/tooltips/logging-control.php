@@ -1,1 +1,0 @@
-<p>Logging helps support to find out your issue and fix as soon as possible. Keep it disabled unless required by support team.</p>

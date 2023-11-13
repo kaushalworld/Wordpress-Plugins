@@ -1,1 +1,0 @@
-<p>This is the total number of user responses shown above your emojis. Check preview to see live. You can disable if you do not want this shown. Or, you can keep activated and customize how it appears.</p>

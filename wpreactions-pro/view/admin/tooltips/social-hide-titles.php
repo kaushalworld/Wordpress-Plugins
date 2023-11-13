@@ -1,1 +1,0 @@
-<p>Choose this option to disable text and just show icons only in your buttons. This is recommended when using more social buttons than emojis.</p><p>Preview this option to try it live.</p>

@@ -1,1 +1,0 @@
-<p>Each shortcode collects its own data. Choose the dropdown list below to see analytics data for that shortcode.</p>

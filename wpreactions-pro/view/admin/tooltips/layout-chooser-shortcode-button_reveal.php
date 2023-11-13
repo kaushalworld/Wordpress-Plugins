@@ -1,1 +1,0 @@
-<p>This layout is loaded with options and social sharing. The button changes to a social sharing button after the user engages with emojis. You can choose between 2 and 7 emojis. Go to the next step to choose your emojis.</p>

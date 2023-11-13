@@ -1,1 +1,0 @@
-<p>This layout is great for the bottom of any page. 6 emojis are used in this layout. You can choose your emojis in the next step.</p>

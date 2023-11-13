@@ -1,1 +1,0 @@
-<p>You have full control over your colors</p>

@@ -1,1 +1,0 @@
-<p>All of the options you need to make a great button! Choose your favorite colors with our color pickers and change the border radius to shape your button. Combine these options with button padding to make the perfect size and shape button for your visitors to engage with.</p>

@@ -1,1 +1,0 @@
-<p>Place your emojis where you want. Choose the options that will line up your reactions with your content layout.</p>

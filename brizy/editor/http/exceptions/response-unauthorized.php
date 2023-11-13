@@ -1,5 +1,0 @@
-<?php
-
-class Brizy_Editor_Http_Exceptions_ResponseUnauthorized extends Brizy_Editor_Http_Exceptions_ResponseException {
-
-}
